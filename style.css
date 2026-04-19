@@ -1,0 +1,905 @@
+/* Dual-Eye Cockpit v1.2 — Car Dashboard + Race Track */
+:root {
+  --bg-primary: #0a0e1a;
+  --bg-secondary: #111827;
+  --bg-card: #151d2f;
+  --bg-card-2: #1a2540;
+  --border: #263352;
+  --text-primary: #e8edf7;
+  --text-secondary: #8b97b3;
+  --text-muted: #5a6686;
+  --accent: #4f7cff;
+  --accent-2: #8b5cf6;
+  --accent-orange: #f59e0b;
+  --accent-glow: rgba(79, 124, 255, 0.35);
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+  --info: #06b6d4;
+  --radius: 14px;
+  --radius-sm: 8px;
+  --shadow-card: 0 8px 32px rgba(0, 0, 0, 0.45);
+  --shadow-glow: 0 0 40px rgba(79, 124, 255, 0.15);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+
+html, body {
+  background: radial-gradient(ellipse at top, #141b2e 0%, var(--bg-primary) 65%);
+  color: var(--text-primary);
+  font-family: 'Noto Sans JP', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 14px;
+  line-height: 1.55;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+body { padding-bottom: 80px; }
+
+/* 背景パターン */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image:
+    radial-gradient(circle at 20% 30%, rgba(79, 124, 255, 0.06), transparent 50%),
+    radial-gradient(circle at 80% 70%, rgba(139, 92, 246, 0.05), transparent 50%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+main { position: relative; z-index: 1; }
+
+/* ヘッダー */
+.top-nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(10, 14, 26, 0.88);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border-bottom: 1px solid var(--border);
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand { display: flex; align-items: center; gap: 10px; }
+
+.logo {
+  width: 34px; height: 34px;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 18px; color: white;
+  box-shadow: 0 0 16px var(--accent-glow);
+  animation: pulse 2.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%,100% { box-shadow: 0 0 16px var(--accent-glow); }
+  50% { box-shadow: 0 0 28px rgba(79, 124, 255, 0.55); }
+}
+
+.brand-text .title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  background: linear-gradient(135deg, #4f7cff, #8b5cf6, #f59e0b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.brand-text .sub {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 9px;
+  letter-spacing: 3px;
+  color: var(--text-secondary);
+  margin-top: -2px;
+}
+
+.nav-right { display: flex; align-items: center; gap: 8px; }
+
+.status-led {
+  display: flex; align-items: center; gap: 5px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  color: var(--success);
+  background: rgba(34, 197, 94, 0.1);
+  padding: 5px 9px;
+  border-radius: 20px;
+  border: 1px solid rgba(34, 197, 94, 0.25);
+}
+
+.status-led .dot {
+  width: 6px; height: 6px; border-radius: 50%;
+  background: var(--success);
+  box-shadow: 0 0 8px var(--success);
+  animation: blink 1.6s ease-in-out infinite;
+}
+
+@keyframes blink { 50% { opacity: 0.4; } }
+
+.time-pill {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 11px;
+  color: var(--text-primary);
+  background: var(--bg-card);
+  padding: 6px 10px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  letter-spacing: 1px;
+}
+
+.refresh-btn {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  width: 34px; height: 34px;
+  border-radius: 50%;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+.refresh-btn:active { transform: scale(0.9); background: var(--accent); }
+.refresh-btn.spinning { animation: spin 1s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* タブ */
+.tab-bar {
+  display: flex;
+  gap: 4px;
+  padding: 10px 12px;
+  overflow-x: auto;
+  background: var(--bg-primary);
+  position: sticky;
+  top: 58px;
+  z-index: 90;
+  border-bottom: 1px solid var(--border);
+  scrollbar-width: none;
+}
+.tab-bar::-webkit-scrollbar { display: none; }
+
+.tab {
+  flex-shrink: 0;
+  background: transparent;
+  border: 1px solid transparent;
+  color: var(--text-secondary);
+  padding: 7px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.22s;
+  font-family: inherit;
+  white-space: nowrap;
+}
+
+.tab.active {
+  background: linear-gradient(135deg, var(--bg-card), var(--bg-card-2));
+  color: var(--text-primary);
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(79, 124, 255, 0.2);
+}
+
+/* メインレイアウト */
+.tab-panel { display: none; padding: 14px; max-width: 720px; margin: 0 auto; }
+.tab-panel.active { display: block; animation: slideIn 0.3s ease-out; }
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* === ヒーローゲージ（総合スコア大メーター） === */
+.hero-gauge {
+  position: relative;
+  background: linear-gradient(135deg, #141b2e 0%, #0d1220 100%);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 16px 10px;
+  margin-bottom: 12px;
+  box-shadow: var(--shadow-card), var(--shadow-glow);
+  overflow: hidden;
+}
+
+.hero-gauge::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 50% 100%, rgba(79, 124, 255, 0.08), transparent 60%);
+  pointer-events: none;
+}
+
+.hero-label {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 11px;
+  letter-spacing: 3px;
+  color: var(--text-secondary);
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.big-gauge {
+  width: 100%;
+  max-width: 380px;
+  display: block;
+  margin: 0 auto;
+  height: auto;
+}
+
+.score-readout {
+  text-align: center;
+  margin-top: -30px;
+  position: relative;
+}
+
+.digital-number {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: -2px;
+  background: linear-gradient(135deg, #4f7cff, #8b5cf6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 30px var(--accent-glow);
+}
+
+.judge-badge {
+  display: inline-block;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  margin-top: 4px;
+  padding: 5px 14px;
+  border-radius: 16px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+}
+
+.judge-badge.strong-buy { color: #22c55e; border-color: #22c55e; box-shadow: 0 0 16px rgba(34, 197, 94, 0.35); }
+.judge-badge.buy { color: #06b6d4; border-color: #06b6d4; box-shadow: 0 0 12px rgba(6, 182, 212, 0.3); }
+.judge-badge.neutral { color: #fbbf24; border-color: #fbbf24; }
+.judge-badge.sell { color: #fb923c; border-color: #fb923c; }
+.judge-badge.strong-sell { color: #ef4444; border-color: #ef4444; box-shadow: 0 0 16px rgba(239, 68, 68, 0.35); }
+
+/* === 4分割ミニゲージ === */
+.quad-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.mini-gauge-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 10px 4px 8px;
+  text-align: center;
+}
+
+.mini-gauge {
+  width: 100%;
+  height: auto;
+  max-width: 80px;
+  display: block;
+  margin: 0 auto;
+}
+
+.mini-gauge path[id] {
+  transition: stroke-dashoffset 1.4s cubic-bezier(.25,.8,.3,1);
+}
+
+.mini-label {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 9px;
+  letter-spacing: 1.5px;
+  color: var(--text-secondary);
+  margin-top: -4px;
+}
+
+.mini-value {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-top: 2px;
+}
+
+/* === 2モデル対決メーター === */
+.dual-meter-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.model-meter {
+  background: linear-gradient(160deg, var(--bg-card) 0%, var(--bg-card-2) 100%);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 10px 12px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.model-meter::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--accent), transparent);
+  opacity: 0.6;
+}
+
+.meter-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin-bottom: 4px;
+}
+
+.flag { font-size: 18px; }
+
+.meter-name {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: var(--text-secondary);
+}
+
+.speed-gauge {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.speed-gauge path[id] { transition: stroke-dashoffset 1.3s cubic-bezier(.25,.8,.3,1.1); }
+
+.meter-info { margin-top: -24px; }
+
+.ticker {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: var(--text-primary);
+  margin-bottom: 2px;
+}
+
+.score-num {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+  color: var(--text-primary);
+  line-height: 1;
+}
+
+.meter-signal {
+  font-size: 10px;
+  color: var(--text-secondary);
+  margin-top: 4px;
+  min-height: 14px;
+}
+
+/* === 警告パネル === */
+.warning-panel {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px;
+  margin-bottom: 12px;
+}
+
+.panel-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+.panel-icon { font-size: 16px; }
+
+.panel-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: var(--text-primary);
+}
+
+.warning-list { list-style: none; display: flex; flex-direction: column; gap: 7px; }
+
+.warning-list li {
+  position: relative;
+  padding: 10px 12px 10px 32px;
+  background: var(--bg-secondary);
+  border-radius: var(--radius-sm);
+  font-size: 12px;
+  line-height: 1.55;
+  border-left: 3px solid var(--accent);
+}
+
+.warning-list li::before {
+  content: '▶';
+  position: absolute;
+  left: 12px; top: 10px;
+  font-size: 9px;
+  color: var(--accent);
+}
+
+.warning-list li.priority-high { border-left-color: var(--danger); background: linear-gradient(90deg, rgba(239, 68, 68, 0.08), var(--bg-secondary)); }
+.warning-list li.priority-high::before { color: var(--danger); animation: blink 1s infinite; }
+.warning-list li.priority-mid { border-left-color: var(--warning); }
+.warning-list li.priority-mid::before { color: var(--warning); }
+.warning-list li.priority-low { border-left-color: var(--success); }
+.warning-list li.priority-low::before { color: var(--success); }
+
+/* === 主要指標（計器盤風） === */
+.instrument-row {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 12px 10px;
+}
+
+.instrument-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: var(--text-secondary);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.instrument-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+}
+
+.instrument {
+  background: var(--bg-secondary);
+  border-radius: var(--radius-sm);
+  padding: 10px 6px;
+  text-align: center;
+  border: 1px solid var(--border);
+  position: relative;
+  overflow: hidden;
+}
+
+.inst-label {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 9px;
+  letter-spacing: 1.2px;
+  color: var(--text-secondary);
+  margin-bottom: 2px;
+}
+
+.inst-value {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+
+.inst-delta {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 10px;
+  margin-top: 2px;
+  font-weight: 700;
+}
+
+.inst-delta.up { color: var(--success); }
+.inst-delta.down { color: var(--danger); }
+
+.inst-bar {
+  height: 2px;
+  background: var(--bg-card);
+  margin-top: 6px;
+  border-radius: 1px;
+  position: relative;
+  overflow: hidden;
+}
+
+.inst-bar-fill {
+  position: absolute;
+  left: 50%;
+  top: 0; bottom: 0;
+  background: var(--accent);
+  transition: all 0.8s ease;
+}
+
+.inst-bar-fill.up { background: var(--success); right: 50%; left: auto; }
+.inst-bar-fill.down { background: var(--danger); }
+
+/* === 銘柄ランキング === */
+.panel-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  margin-bottom: 12px;
+}
+
+.panel-card h3 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  margin-bottom: 4px;
+}
+
+.card-desc {
+  font-size: 11px;
+  color: var(--text-secondary);
+  margin-bottom: 14px;
+}
+
+.stock-rank-list { display: flex; flex-direction: column; gap: 8px; }
+
+.stock-row {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 12px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 12px;
+  align-items: start;
+}
+
+/* v1.2: レーストラック進捗 */
+.race-track {
+  grid-column: 1 / -1;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--border);
+}
+
+.track-labels {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 9px;
+  letter-spacing: 1px;
+  color: var(--text-secondary);
+  margin-bottom: 4px;
+}
+
+.track-labels .start-lbl { color: var(--info); }
+.track-labels .goal-lbl { color: var(--success); }
+
+.track-container {
+  position: relative;
+  height: 28px;
+  background: var(--bg-card);
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+
+/* ストライプ背景（レーストラック風） */
+.track-container::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: repeating-linear-gradient(
+    90deg,
+    transparent 0px,
+    transparent 18px,
+    rgba(255,255,255,0.03) 18px,
+    rgba(255,255,255,0.03) 36px
+  );
+  pointer-events: none;
+}
+
+.track-fill {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, #06b6d4 0%, #22c55e 70%, #fbbf24 100%);
+  border-radius: 14px 0 0 14px;
+  transition: width 1.5s cubic-bezier(.22,.9,.3,1.2);
+  box-shadow: 0 0 12px rgba(34, 197, 94, 0.4);
+}
+
+.track-fill.neg {
+  background: linear-gradient(90deg, #ef4444 0%, #fb923c 100%);
+  box-shadow: 0 0 12px rgba(239, 68, 68, 0.35);
+}
+
+.track-fill.goal-reached {
+  background: linear-gradient(90deg, #22c55e, #4ade80, #22c55e);
+  box-shadow: 0 0 20px rgba(34, 197, 94, 0.7);
+  animation: goalGlow 1.4s ease-in-out infinite;
+}
+
+@keyframes goalGlow {
+  0%,100% { box-shadow: 0 0 12px rgba(34, 197, 94, 0.5); }
+  50% { box-shadow: 0 0 24px rgba(34, 197, 94, 0.9); }
+}
+
+/* START旗 */
+.flag-marker {
+  position: absolute;
+  top: 0; bottom: 0;
+  width: 3px;
+  z-index: 2;
+}
+
+.flag-marker.start-flag {
+  left: 0;
+  background: var(--info);
+  box-shadow: 0 0 6px var(--info);
+}
+
+.flag-marker.goal-flag {
+  right: 0;
+  background: var(--success);
+  box-shadow: 0 0 6px var(--success);
+  background-image: repeating-linear-gradient(
+    0deg,
+    #22c55e 0px,
+    #22c55e 4px,
+    #e8edf7 4px,
+    #e8edf7 8px
+  );
+}
+
+/* 現在値カーアイコン */
+.car-marker {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  z-index: 3;
+  transition: left 1.5s cubic-bezier(.22,.9,.3,1.2);
+  filter: drop-shadow(0 0 4px rgba(0,0,0,0.5));
+}
+
+.car-marker.car-standby { filter: grayscale(0.7); }
+
+.track-percent {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: 'Orbitron', sans-serif;
+  font-size: 10px;
+  font-weight: 900;
+  color: var(--text-primary);
+  text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+  z-index: 4;
+}
+
+.track-prices {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 10px;
+  color: var(--text-secondary);
+  margin-top: 5px;
+}
+
+.track-prices .current-price {
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+.status-chip {
+  display: inline-block;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 9px;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 10px;
+  margin-top: 4px;
+}
+
+.status-chip.status-standby {
+  background: rgba(139, 151, 179, 0.15);
+  color: var(--text-secondary);
+  border: 1px solid rgba(139, 151, 179, 0.3);
+}
+
+.status-chip.status-running {
+  background: rgba(6, 182, 212, 0.15);
+  color: var(--info);
+  border: 1px solid rgba(6, 182, 212, 0.4);
+}
+
+.status-chip.status-accelerating {
+  background: rgba(251, 191, 36, 0.15);
+  color: #fbbf24;
+  border: 1px solid rgba(251, 191, 36, 0.4);
+}
+
+.status-chip.status-goal {
+  background: rgba(34, 197, 94, 0.2);
+  color: var(--success);
+  border: 1px solid rgba(34, 197, 94, 0.6);
+  box-shadow: 0 0 10px rgba(34, 197, 94, 0.4);
+  animation: goalBlink 1.2s ease-in-out infinite;
+}
+
+@keyframes goalBlink {
+  50% { background: rgba(34, 197, 94, 0.4); }
+}
+
+.rank-chip {
+  width: 32px; height: 32px;
+  border-radius: 50%;
+  background: var(--bg-card);
+  color: var(--text-secondary);
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 900;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--border);
+}
+
+.rank-chip.top1 { background: linear-gradient(135deg, #fbbf24, #f59e0b); color: #0a0e1a; border-color: #fbbf24; box-shadow: 0 0 12px rgba(251, 191, 36, 0.5); }
+.rank-chip.top2 { background: linear-gradient(135deg, #e5e7eb, #9ca3af); color: #0a0e1a; border-color: #e5e7eb; }
+.rank-chip.top3 { background: linear-gradient(135deg, #c97e5e, #92400e); color: #fff; border-color: #c97e5e; }
+
+.stock-main h4 {
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.stock-code {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 10px;
+  color: var(--text-secondary);
+}
+
+.stock-tags { display: flex; gap: 4px; margin-top: 6px; flex-wrap: wrap; }
+
+.tag {
+  font-size: 9px;
+  padding: 2px 6px;
+  border-radius: 3px;
+  background: var(--bg-card);
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+.tag.hot { background: rgba(239, 68, 68, 0.15); color: #ef4444; }
+.tag.policy { background: rgba(79, 124, 255, 0.15); color: #4f7cff; }
+.tag.growth { background: rgba(34, 197, 94, 0.15); color: #22c55e; }
+
+.stock-score-box {
+  text-align: center;
+  padding: 6px 10px;
+  background: var(--bg-card);
+  border-radius: var(--radius-sm);
+  min-width: 60px;
+  border: 1px solid var(--border);
+}
+
+.stock-score-box .big {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 22px;
+  font-weight: 900;
+  color: var(--text-primary);
+  line-height: 1;
+}
+
+.stock-score-box .lbl {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 8px;
+  color: var(--text-secondary);
+  letter-spacing: 1px;
+  margin-top: 2px;
+}
+
+/* === 履歴スパークライン === */
+.sparkline {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin-bottom: 16px;
+  background: var(--bg-secondary);
+  border-radius: var(--radius-sm);
+  padding: 8px;
+}
+
+.log-list { display: flex; flex-direction: column; gap: 5px; }
+
+.log-item {
+  background: var(--bg-secondary);
+  border-radius: var(--radius-sm);
+  padding: 8px 12px;
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  gap: 10px;
+  align-items: center;
+  font-size: 11px;
+}
+
+.log-item .log-time {
+  font-family: 'Orbitron', sans-serif;
+  color: var(--text-secondary);
+  font-size: 10px;
+}
+
+.log-item .log-bar {
+  height: 4px;
+  background: var(--bg-card);
+  border-radius: 2px;
+  position: relative;
+  overflow: hidden;
+}
+
+.log-item .log-bar-fill {
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  background: linear-gradient(90deg, #ef4444, #fbbf24, #22c55e);
+}
+
+.log-item .log-score {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+  color: var(--accent);
+  min-width: 30px;
+  text-align: right;
+}
+
+.log-item .log-judge {
+  font-size: 9px;
+  color: var(--text-secondary);
+  min-width: 60px;
+  text-align: right;
+}
+
+/* === フッター === */
+.app-footer {
+  text-align: center;
+  padding: 20px 12px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: var(--text-muted);
+  border-top: 1px solid var(--border);
+  margin-top: 20px;
+}
+
+.disclaimer {
+  font-family: 'Noto Sans JP', sans-serif;
+  margin-top: 4px;
+  color: var(--warning);
+  letter-spacing: 0;
+}
+
+.loading { text-align: center; color: var(--text-secondary); padding: 12px; font-size: 12px; }
+
+/* タブレット以上 */
+@media (min-width: 768px) {
+  .tab-panel { padding: 20px; }
+  .quad-grid { grid-template-columns: repeat(4, 1fr); }
+  .instrument-grid { grid-template-columns: repeat(6, 1fr); }
+  .digital-number { font-size: 86px; }
+  .dual-meter-grid { gap: 14px; }
+}
