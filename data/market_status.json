@@ -1,22 +1,49 @@
 {
-  "timestamp": "2026-04-19T09:00:00+09:00",
-  "overall_score": 68,
-  "fundamental": 22,
-  "technical": 18,
+  "timestamp": "2026-04-19T14:23:53.326906+09:00",
+  "overall_score": 71,
+  "fundamental": 24,
+  "technical": 25,
   "sentiment": 14,
-  "macro": 14,
+  "macro": 8,
   "indices": [
-    {"name": "S&P500", "value": 5842.15, "change": 0.48},
-    {"name": "NASDAQ", "value": 18925.73, "change": 0.72},
-    {"name": "日経平均", "value": 38456.21, "change": -0.32},
-    {"name": "TOPIX", "value": 2712.08, "change": -0.18},
-    {"name": "VIX", "value": 14.82, "change": -2.15},
-    {"name": "ドル円", "value": 154.28, "change": 0.11}
+    {
+      "name": "S&P500",
+      "value": 7126.06,
+      "change": 1.2
+    },
+    {
+      "name": "NASDAQ",
+      "value": 24468.48,
+      "change": 1.52
+    },
+    {
+      "name": "日経平均",
+      "value": 58475.9,
+      "change": -1.75
+    },
+    {
+      "name": "VIX",
+      "value": 17.48,
+      "change": -2.56
+    },
+    {
+      "name": "ドル円",
+      "value": 158.58,
+      "change": -0.14
+    }
   ],
   "actions": [
-    {"priority": "high", "text": "🎯 米国株：ペロシ眼TOP5銘柄を優先チェック。政策追い風が継続中"},
-    {"priority": "mid", "text": "📊 日本株：清原眼Qレシオ1.2以上の小型成長株を中心に精査"},
-    {"priority": "mid", "text": "⚡ VIX低下でリスクオン環境。ただしポジションサイズは資金の10-15%まで"},
-    {"priority": "low", "text": "📰 今週のFOMC要人発言に注目。利下げ観測で成長株に追い風"}
+    {
+      "priority": "high",
+      "text": "🎯 買い検討環境（71点）。ペロシTOP5とQレシオ高い清原TOP3を優先チェック"
+    },
+    {
+      "priority": "mid",
+      "text": "🇺🇸 米国株TOP：Microsoft（MSFT）スコア90点"
+    },
+    {
+      "priority": "mid",
+      "text": "🇯🇵 日本株TOP：シーユーシー（9158.T）スコア43点"
+    }
   ]
 }
