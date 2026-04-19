@@ -1,0 +1,158 @@
+{
+  "updated": "2026-04-19T09:00:00+09:00",
+  "model": "Kiyohara Eye - Small Cap Growth × Q Ratio",
+  "note": "時価総額500億円以下／ROE15%以上／ネットキャッシュ潤沢／Qレシオ1.0以上",
+  "stocks": [
+    {
+      "code": "4011.T",
+      "name": "ヘッドウォータース",
+      "price": 12450,
+      "start_price": 10000,
+      "goal_price": 18000,
+      "progress": 30,
+      "status": "RUNNING",
+      "score": 89,
+      "signal": "生成AI開発需要で業績上方修正継続",
+      "tags": [
+        {"label": "AI", "type": "hot"},
+        {"label": "Q1.4", "type": "growth"},
+        {"label": "小型", "type": "policy"}
+      ]
+    },
+    {
+      "code": "5132.T",
+      "name": "pluszero",
+      "price": 6820,
+      "start_price": 5500,
+      "goal_price": 9500,
+      "progress": 33,
+      "status": "RUNNING",
+      "score": 85,
+      "signal": "AEI独自技術で高成長継続",
+      "tags": [
+        {"label": "AI", "type": "hot"},
+        {"label": "Q1.3", "type": "growth"}
+      ]
+    },
+    {
+      "code": "5595.T",
+      "name": "QPS研究所",
+      "price": 2240,
+      "start_price": 1800,
+      "goal_price": 3200,
+      "progress": 31,
+      "status": "RUNNING",
+      "score": 82,
+      "signal": "宇宙防衛予算拡大で受注急増",
+      "tags": [
+        {"label": "宇宙", "type": "hot"},
+        {"label": "防衛", "type": "policy"}
+      ]
+    },
+    {
+      "code": "7380.T",
+      "name": "十六FG",
+      "price": 4185,
+      "start_price": 3800,
+      "goal_price": 5000,
+      "progress": 32,
+      "status": "RUNNING",
+      "score": 78,
+      "signal": "金利上昇で地銀利ざや改善",
+      "tags": [
+        {"label": "金融", "type": "policy"},
+        {"label": "割安", "type": "growth"}
+      ]
+    },
+    {
+      "code": "9158.T",
+      "name": "シーユーシー",
+      "price": 2368,
+      "start_price": 2100,
+      "goal_price": 3000,
+      "progress": 30,
+      "status": "RUNNING",
+      "score": 75,
+      "signal": "在宅医療M&A戦略加速",
+      "tags": [
+        {"label": "医療", "type": "hot"},
+        {"label": "M&A", "type": "growth"}
+      ]
+    },
+    {
+      "code": "4180.T",
+      "name": "Appier Group",
+      "price": 1642,
+      "start_price": 1450,
+      "goal_price": 2200,
+      "progress": 26,
+      "status": "RUNNING",
+      "score": 72,
+      "signal": "AI×マーケ海外展開拡大",
+      "tags": [
+        {"label": "AI", "type": "hot"},
+        {"label": "海外", "type": "growth"}
+      ]
+    },
+    {
+      "code": "4592.T",
+      "name": "サンバイオ",
+      "price": 1218,
+      "start_price": 1350,
+      "goal_price": 2000,
+      "progress": -20,
+      "status": "STANDBY",
+      "score": 70,
+      "signal": "再生医療承認後の収益化期待",
+      "tags": [
+        {"label": "バイオ", "type": "hot"},
+        {"label": "承認", "type": "policy"}
+      ]
+    },
+    {
+      "code": "6920.T",
+      "name": "レーザーテック",
+      "price": 18250,
+      "start_price": 16000,
+      "goal_price": 25000,
+      "progress": 25,
+      "status": "RUNNING",
+      "score": 68,
+      "signal": "EUV検査装置で独占的ポジション",
+      "tags": [
+        {"label": "半導体", "type": "hot"},
+        {"label": "独占", "type": "growth"}
+      ]
+    },
+    {
+      "code": "3681.T",
+      "name": "ブイキューブ",
+      "price": 428,
+      "start_price": 380,
+      "goal_price": 600,
+      "progress": 22,
+      "status": "RUNNING",
+      "score": 64,
+      "signal": "建設遠隔臨場で官需拡大",
+      "tags": [
+        {"label": "DX", "type": "policy"},
+        {"label": "割安", "type": "growth"}
+      ]
+    },
+    {
+      "code": "4375.T",
+      "name": "セーフィー",
+      "price": 985,
+      "start_price": 850,
+      "goal_price": 1400,
+      "progress": 25,
+      "status": "RUNNING",
+      "score": 62,
+      "signal": "クラウドカメラ契約ARR拡大",
+      "tags": [
+        {"label": "SaaS", "type": "hot"},
+        {"label": "成長", "type": "growth"}
+      ]
+    }
+  ]
+}

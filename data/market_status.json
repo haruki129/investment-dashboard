@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-04-19T09:00:00+09:00",
+  "overall_score": 68,
+  "fundamental": 22,
+  "technical": 18,
+  "sentiment": 14,
+  "macro": 14,
+  "indices": [
+    {"name": "S&P500", "value": 5842.15, "change": 0.48},
+    {"name": "NASDAQ", "value": 18925.73, "change": 0.72},
+    {"name": "日経平均", "value": 38456.21, "change": -0.32},
+    {"name": "TOPIX", "value": 2712.08, "change": -0.18},
+    {"name": "VIX", "value": 14.82, "change": -2.15},
+    {"name": "ドル円", "value": 154.28, "change": 0.11}
+  ],
+  "actions": [
+    {"priority": "high", "text": "🎯 米国株：ペロシ眼TOP5銘柄を優先チェック。政策追い風が継続中"},
+    {"priority": "mid", "text": "📊 日本株：清原眼Qレシオ1.2以上の小型成長株を中心に精査"},
+    {"priority": "mid", "text": "⚡ VIX低下でリスクオン環境。ただしポジションサイズは資金の10-15%まで"},
+    {"priority": "low", "text": "📰 今週のFOMC要人発言に注目。利下げ観測で成長株に追い風"}
+  ]
+}
