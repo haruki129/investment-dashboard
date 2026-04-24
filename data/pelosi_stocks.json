@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-24T06:51:10.755168+09:00",
+  "updated": "2026-04-24T14:39:29.315989+09:00",
   "model": "Pelosi Eye - Policy × Innovation",
   "stocks": [
     {
@@ -41,6 +41,27 @@
         {
           "label": "政府調達",
           "type": "policy"
+        }
+      ]
+    },
+    {
+      "code": "AMZN",
+      "name": "Amazon",
+      "price": 255.08,
+      "start_price": 230.13,
+      "goal_price": 306.1,
+      "progress": 33,
+      "status": "RUNNING",
+      "score": 75,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "クラウド",
+          "type": "hot"
+        },
+        {
+          "label": "EC",
+          "type": "growth"
         }
       ]
     },
@@ -124,27 +145,6 @@
         },
         {
           "label": "AI",
-          "type": "growth"
-        }
-      ]
-    },
-    {
-      "code": "AMZN",
-      "name": "Amazon",
-      "price": 255.08,
-      "start_price": 230.13,
-      "goal_price": 306.1,
-      "progress": 33,
-      "status": "RUNNING",
-      "score": 70,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "クラウド",
-          "type": "hot"
-        },
-        {
-          "label": "EC",
           "type": "growth"
         }
       ]
