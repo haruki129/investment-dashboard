@@ -1,14 +1,14 @@
 {
-  "updated": "2026-04-28T01:43:08.694277+09:00",
+  "updated": "2026-04-28T06:55:44.333863+09:00",
   "model": "Pelosi Eye - Policy × Innovation",
   "stocks": [
     {
       "code": "MSFT",
       "name": "Microsoft",
-      "price": 424.15,
-      "start_price": 395.34,
+      "price": 424.82,
+      "start_price": 395.37,
       "goal_price": 524.63,
-      "progress": 22,
+      "progress": 23,
       "status": "RUNNING",
       "score": 80,
       "signal": "分析済",
@@ -24,12 +24,33 @@
       ]
     },
     {
+      "code": "AMZN",
+      "name": "Amazon",
+      "price": 261.12,
+      "start_price": 236.04,
+      "goal_price": 313.34,
+      "progress": 32,
+      "status": "RUNNING",
+      "score": 75,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "クラウド",
+          "type": "hot"
+        },
+        {
+          "label": "EC",
+          "type": "growth"
+        }
+      ]
+    },
+    {
       "code": "NVDA",
       "name": "NVIDIA",
-      "price": 213.22,
-      "start_price": 190.67,
-      "goal_price": 255.86,
-      "progress": 35,
+      "price": 216.61,
+      "start_price": 190.84,
+      "goal_price": 259.93,
+      "progress": 37,
       "status": "RUNNING",
       "score": 70,
       "signal": "分析済",
@@ -47,10 +68,10 @@
     {
       "code": "GOOGL",
       "name": "Alphabet",
-      "price": 352.1,
-      "start_price": 321.31,
-      "goal_price": 422.52,
-      "progress": 30,
+      "price": 350.34,
+      "start_price": 321.22,
+      "goal_price": 420.41,
+      "progress": 29,
       "status": "RUNNING",
       "score": 70,
       "signal": "分析済",
@@ -68,10 +89,10 @@
     {
       "code": "PANW",
       "name": "Palo Alto Networks",
-      "price": 182.36,
-      "start_price": 167.49,
+      "price": 182.9,
+      "start_price": 167.51,
       "goal_price": 212.43,
-      "progress": 33,
+      "progress": 34,
       "status": "RUNNING",
       "score": 70,
       "signal": "分析済",
@@ -89,10 +110,10 @@
     {
       "code": "CRWD",
       "name": "CrowdStrike",
-      "price": 456.12,
-      "start_price": 416.9,
+      "price": 454.61,
+      "start_price": 416.83,
       "goal_price": 538.56,
-      "progress": 32,
+      "progress": 31,
       "status": "RUNNING",
       "score": 70,
       "signal": "分析済",
@@ -110,9 +131,9 @@
     {
       "code": "AVGO",
       "name": "Broadcom",
-      "price": 416.57,
-      "start_price": 370.12,
-      "goal_price": 499.88,
+      "price": 418.2,
+      "start_price": 370.2,
+      "goal_price": 501.84,
       "progress": 36,
       "status": "RUNNING",
       "score": 70,
@@ -129,33 +150,12 @@
       ]
     },
     {
-      "code": "AMZN",
-      "name": "Amazon",
-      "price": 262.78,
-      "start_price": 236.12,
-      "goal_price": 315.34,
-      "progress": 34,
-      "status": "RUNNING",
-      "score": 70,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "クラウド",
-          "type": "hot"
-        },
-        {
-          "label": "EC",
-          "type": "growth"
-        }
-      ]
-    },
-    {
       "code": "AAPL",
       "name": "Apple",
-      "price": 266.62,
-      "start_price": 262.29,
-      "goal_price": 319.94,
-      "progress": 8,
+      "price": 267.61,
+      "start_price": 262.34,
+      "goal_price": 321.13,
+      "progress": 9,
       "status": "RUNNING",
       "score": 60,
       "signal": "分析済",
@@ -173,10 +173,10 @@
     {
       "code": "TSLA",
       "name": "Tesla",
-      "price": 373.31,
-      "start_price": 369.7,
+      "price": 378.67,
+      "start_price": 369.97,
       "goal_price": 473.89,
-      "progress": 3,
+      "progress": 8,
       "status": "RUNNING",
       "score": 60,
       "signal": "分析済",
@@ -194,12 +194,12 @@
     {
       "code": "V",
       "name": "Visa",
-      "price": 310.12,
-      "start_price": 308.05,
+      "price": 309.65,
+      "start_price": 308.02,
       "goal_price": 354.67,
-      "progress": 4,
+      "progress": 3,
       "status": "RUNNING",
-      "score": 50,
+      "score": 55,
       "signal": "分析済",
       "tags": [
         {
