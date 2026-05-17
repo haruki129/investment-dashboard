@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-18T01:00:47.218734+09:00",
+  "timestamp": "2026-05-18T06:57:56.744607+09:00",
   "overall_score": 62,
   "fundamental": 23,
   "technical": 15,
@@ -28,8 +28,8 @@
     },
     {
       "name": "ドル円",
-      "value": 158.73,
-      "change": 0.56
+      "value": 158.65,
+      "change": 0.17
     }
   ],
   "actions": [
