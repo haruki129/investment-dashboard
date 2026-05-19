@@ -1,8 +1,29 @@
 {
-  "updated": "2026-05-19T15:51:07.485029+09:00",
+  "updated": "2026-05-19T21:13:14.928790+09:00",
   "model": "Kiyohara Eye - Small Cap Growth × Q Ratio",
   "note": "時価総額500億円以下／ROE15%以上／Qレシオ1.0以上",
   "stocks": [
+    {
+      "code": "7380.T",
+      "name": "十六FG",
+      "price": 2070.0,
+      "start_price": 2063.1,
+      "goal_price": 2484.0,
+      "progress": 2,
+      "status": "RUNNING",
+      "score": 68,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "金融",
+          "type": "policy"
+        },
+        {
+          "label": "割安",
+          "type": "growth"
+        }
+      ]
+    },
     {
       "code": "9158.T",
       "name": "シーユーシー",
@@ -20,27 +41,6 @@
         },
         {
           "label": "M&A",
-          "type": "growth"
-        }
-      ]
-    },
-    {
-      "code": "7380.T",
-      "name": "十六FG",
-      "price": 2070.0,
-      "start_price": 2063.1,
-      "goal_price": 2484.0,
-      "progress": 2,
-      "status": "RUNNING",
-      "score": 53,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "金融",
-          "type": "policy"
-        },
-        {
-          "label": "割安",
           "type": "growth"
         }
       ]
