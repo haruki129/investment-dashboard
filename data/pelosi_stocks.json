@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-19T07:05:50.326856+09:00",
+  "updated": "2026-05-19T15:51:07.485029+09:00",
   "model": "Pelosi Eye - Policy × Innovation",
   "stocks": [
     {
@@ -108,6 +108,27 @@
       ]
     },
     {
+      "code": "V",
+      "name": "Visa",
+      "price": 332.64,
+      "start_price": 320.03,
+      "goal_price": 353.94,
+      "progress": 37,
+      "status": "RUNNING",
+      "score": 65,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "金融",
+          "type": "policy"
+        },
+        {
+          "label": "安定",
+          "type": "growth"
+        }
+      ]
+    },
+    {
       "code": "MSFT",
       "name": "Microsoft",
       "price": 423.54,
@@ -145,27 +166,6 @@
         },
         {
           "label": "AI",
-          "type": "growth"
-        }
-      ]
-    },
-    {
-      "code": "V",
-      "name": "Visa",
-      "price": 332.64,
-      "start_price": 320.03,
-      "goal_price": 353.94,
-      "progress": 37,
-      "status": "RUNNING",
-      "score": 60,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "金融",
-          "type": "policy"
-        },
-        {
-          "label": "安定",
           "type": "growth"
         }
       ]
