@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-20T07:18:51.195196+09:00",
+  "updated": "2026-05-20T15:51:31.202842+09:00",
   "model": "Pelosi Eye - Policy × Innovation",
   "stocks": [
     {
@@ -108,6 +108,27 @@
       ]
     },
     {
+      "code": "MSFT",
+      "name": "Microsoft",
+      "price": 417.42,
+      "start_price": 417.34,
+      "goal_price": 524.63,
+      "progress": 0,
+      "status": "RUNNING",
+      "score": 60,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "AI",
+          "type": "hot"
+        },
+        {
+          "label": "クラウド",
+          "type": "policy"
+        }
+      ]
+    },
+    {
       "code": "AAPL",
       "name": "Apple",
       "price": 298.97,
@@ -125,27 +146,6 @@
         {
           "label": "ブランド",
           "type": "growth"
-        }
-      ]
-    },
-    {
-      "code": "MSFT",
-      "name": "Microsoft",
-      "price": 417.42,
-      "start_price": 417.34,
-      "goal_price": 524.63,
-      "progress": 0,
-      "status": "RUNNING",
-      "score": 50,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "AI",
-          "type": "hot"
-        },
-        {
-          "label": "クラウド",
-          "type": "policy"
         }
       ]
     },
