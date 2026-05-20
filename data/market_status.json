@@ -1,45 +1,45 @@
 {
-  "timestamp": "2026-05-20T20:50:48.151157+09:00",
-  "overall_score": 66,
-  "fundamental": 24,
-  "technical": 17,
+  "timestamp": "2026-05-21T02:54:35.617495+09:00",
+  "overall_score": 72,
+  "fundamental": 23,
+  "technical": 24,
   "sentiment": 14,
   "macro": 11,
   "indices": [
     {
       "name": "S&P500",
-      "value": 7353.61,
-      "change": -0.67
+      "value": 7416.57,
+      "change": 0.86
     },
     {
       "name": "NASDAQ",
-      "value": 25870.71,
-      "change": -0.84
+      "value": 26196.11,
+      "change": 1.26
     },
     {
       "name": "日経平均",
-      "value": 59804.41,
-      "change": -1.23
+      "value": 60550.59,
+      "change": -0.44
     },
     {
       "name": "VIX",
-      "value": 17.94,
-      "change": -0.66
+      "value": 17.54,
+      "change": -2.88
     },
     {
       "name": "ドル円",
-      "value": 159.01,
-      "change": 0.09
+      "value": 158.91,
+      "change": 0.03
     }
   ],
   "actions": [
     {
       "priority": "high",
-      "text": "🎯 買い検討環境（66点）。ペロシTOP5とQレシオ高い清原TOP3を優先チェック"
+      "text": "🎯 買い検討環境（72点）。ペロシTOP5とQレシオ高い清原TOP3を優先チェック"
     },
     {
       "priority": "mid",
-      "text": "🇺🇸 米国株TOP：Palo Alto Networks（PANW）スコア90点"
+      "text": "🇺🇸 米国株TOP：Palo Alto Networks（PANW）スコア80点"
     },
     {
       "priority": "mid",
