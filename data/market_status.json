@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-22T02:31:28.223344+09:00",
+  "timestamp": "2026-05-22T07:21:41.477217+09:00",
   "overall_score": 69,
   "fundamental": 23,
   "technical": 21,
@@ -8,13 +8,13 @@
   "indices": [
     {
       "name": "S&P500",
-      "value": 7442.86,
-      "change": 0.13
+      "value": 7445.72,
+      "change": 0.17
     },
     {
       "name": "NASDAQ",
-      "value": 26307.5,
-      "change": 0.14
+      "value": 26293.1,
+      "change": 0.09
     },
     {
       "name": "日経平均",
@@ -23,13 +23,13 @@
     },
     {
       "name": "VIX",
-      "value": 16.88,
-      "change": -3.21
+      "value": 16.76,
+      "change": -3.9
     },
     {
       "name": "ドル円",
-      "value": 158.93,
-      "change": -0.06
+      "value": 159.01,
+      "change": -0.01
     }
   ],
   "actions": [
