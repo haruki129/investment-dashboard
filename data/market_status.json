@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-25T06:58:34.875484+09:00",
+  "timestamp": "2026-05-25T16:17:28.025040+09:00",
   "overall_score": 73,
   "fundamental": 22,
   "technical": 26,
@@ -18,8 +18,8 @@
     },
     {
       "name": "日経平均",
-      "value": 63339.07,
-      "change": 2.68
+      "value": 65158.19,
+      "change": 2.87
     },
     {
       "name": "VIX",
@@ -28,8 +28,8 @@
     },
     {
       "name": "ドル円",
-      "value": 158.84,
-      "change": -0.11
+      "value": 158.99,
+      "change": -0.02
     }
   ],
   "actions": [
