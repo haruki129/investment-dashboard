@@ -1,45 +1,45 @@
 {
-  "timestamp": "2026-05-26T15:49:53.056338+09:00",
-  "overall_score": 69,
+  "timestamp": "2026-05-27T02:56:50.823351+09:00",
+  "overall_score": 73,
   "fundamental": 22,
-  "technical": 22,
+  "technical": 26,
   "sentiment": 14,
   "macro": 11,
   "indices": [
     {
       "name": "S&P500",
-      "value": 7473.47,
-      "change": 0.37
+      "value": 7506.61,
+      "change": 0.44
     },
     {
       "name": "NASDAQ",
-      "value": 26343.97,
-      "change": 0.19
+      "value": 26576.83,
+      "change": 0.88
     },
     {
       "name": "日経平均",
-      "value": 64996.09,
-      "change": -0.25
+      "value": 65158.19,
+      "change": 2.87
     },
     {
       "name": "VIX",
-      "value": 16.59,
-      "change": -0.66
+      "value": 17.1,
+      "change": 3.07
     },
     {
       "name": "ドル円",
-      "value": 159.08,
-      "change": 0.08
+      "value": 159.37,
+      "change": 0.26
     }
   ],
   "actions": [
     {
       "priority": "high",
-      "text": "🎯 買い検討環境（69点）。ペロシTOP5とQレシオ高い清原TOP3を優先チェック"
+      "text": "🎯 買い検討環境（73点）。ペロシTOP5とQレシオ高い清原TOP3を優先チェック"
     },
     {
       "priority": "mid",
-      "text": "🇺🇸 米国株TOP：CrowdStrike（CRWD）スコア80点"
+      "text": "🇺🇸 米国株TOP：Palo Alto Networks（PANW）スコア75点"
     },
     {
       "priority": "mid",
