@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-30T07:38:35.295008+09:00",
+  "updated": "2026-05-30T15:25:57.897432+09:00",
   "model": "Pelosi Eye - Policy × Innovation",
   "stocks": [
     {
@@ -150,6 +150,27 @@
       ]
     },
     {
+      "code": "V",
+      "name": "Visa",
+      "price": 326.36,
+      "start_price": 325.43,
+      "goal_price": 353.94,
+      "progress": 3,
+      "status": "RUNNING",
+      "score": 50,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "金融",
+          "type": "policy"
+        },
+        {
+          "label": "安定",
+          "type": "growth"
+        }
+      ]
+    },
+    {
       "code": "AMZN",
       "name": "Amazon",
       "price": 270.64,
@@ -166,27 +187,6 @@
         },
         {
           "label": "EC",
-          "type": "growth"
-        }
-      ]
-    },
-    {
-      "code": "V",
-      "name": "Visa",
-      "price": 326.36,
-      "start_price": 325.43,
-      "goal_price": 353.94,
-      "progress": 3,
-      "status": "RUNNING",
-      "score": 45,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "金融",
-          "type": "policy"
-        },
-        {
-          "label": "安定",
           "type": "growth"
         }
       ]
