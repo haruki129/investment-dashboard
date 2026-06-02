@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-02T21:44:45.933140+09:00",
+  "timestamp": "2026-06-03T03:42:04.497269+09:00",
   "overall_score": 72,
   "fundamental": 25,
   "technical": 22,
@@ -8,28 +8,28 @@
   "indices": [
     {
       "name": "S&P500",
-      "value": 7599.96,
-      "change": 0.26
+      "value": 7603.46,
+      "change": 0.05
     },
     {
       "name": "NASDAQ",
-      "value": 27086.81,
-      "change": 0.42
+      "value": 27043.08,
+      "change": -0.16
     },
     {
       "name": "日経平均",
-      "value": 66734.24,
-      "change": -0.3
+      "value": 66934.33,
+      "change": 0.91
     },
     {
       "name": "VIX",
-      "value": 16.14,
-      "change": 0.56
+      "value": 15.86,
+      "change": -1.18
     },
     {
       "name": "ドル円",
-      "value": 159.77,
-      "change": 0.26
+      "value": 159.93,
+      "change": 0.36
     }
   ],
   "actions": [
@@ -39,7 +39,7 @@
     },
     {
       "priority": "mid",
-      "text": "🇺🇸 米国株TOP：Microsoft（MSFT）スコア90点"
+      "text": "🇺🇸 米国株TOP：Palo Alto Networks（PANW）スコア90点"
     },
     {
       "priority": "mid",
