@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-04T08:06:44.737657+09:00",
+  "updated": "2026-06-04T16:26:35.897596+09:00",
   "model": "Pelosi Eye - Policy × Innovation",
   "stocks": [
     {
@@ -24,6 +24,27 @@
       ]
     },
     {
+      "code": "CRWD",
+      "name": "CrowdStrike",
+      "price": 747.61,
+      "start_price": 627.09,
+      "goal_price": 897.13,
+      "progress": 45,
+      "status": "RUNNING",
+      "score": 90,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "サイバー",
+          "type": "hot"
+        },
+        {
+          "label": "政府調達",
+          "type": "policy"
+        }
+      ]
+    },
+    {
       "code": "AVGO",
       "name": "Broadcom",
       "price": 479.23,
@@ -41,27 +62,6 @@
         {
           "label": "AI",
           "type": "growth"
-        }
-      ]
-    },
-    {
-      "code": "CRWD",
-      "name": "CrowdStrike",
-      "price": 747.61,
-      "start_price": 627.09,
-      "goal_price": 897.13,
-      "progress": 45,
-      "status": "RUNNING",
-      "score": 80,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "サイバー",
-          "type": "hot"
-        },
-        {
-          "label": "政府調達",
-          "type": "policy"
         }
       ]
     },
