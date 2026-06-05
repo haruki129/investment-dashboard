@@ -1,49 +1,7 @@
 {
-  "updated": "2026-06-05T07:22:58.369113+09:00",
+  "updated": "2026-06-05T16:11:48.163576+09:00",
   "model": "Pelosi Eye - Policy × Innovation",
   "stocks": [
-    {
-      "code": "PANW",
-      "name": "Palo Alto Networks",
-      "price": 279.25,
-      "start_price": 249.62,
-      "goal_price": 335.1,
-      "progress": 35,
-      "status": "RUNNING",
-      "score": 90,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "サイバー",
-          "type": "hot"
-        },
-        {
-          "label": "防衛予算",
-          "type": "policy"
-        }
-      ]
-    },
-    {
-      "code": "CRWD",
-      "name": "CrowdStrike",
-      "price": 719.09,
-      "start_price": 639.64,
-      "goal_price": 862.91,
-      "progress": 36,
-      "status": "RUNNING",
-      "score": 90,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "サイバー",
-          "type": "hot"
-        },
-        {
-          "label": "政府調達",
-          "type": "policy"
-        }
-      ]
-    },
     {
       "code": "MSFT",
       "name": "Microsoft",
@@ -111,9 +69,9 @@
       "code": "NVDA",
       "name": "NVIDIA",
       "price": 218.66,
-      "start_price": 219.42,
+      "start_price": 219.18,
       "goal_price": 262.39,
-      "progress": -2,
+      "progress": -1,
       "status": "STANDBY",
       "score": 60,
       "signal": "分析済",
@@ -167,6 +125,48 @@
         {
           "label": "AI",
           "type": "growth"
+        }
+      ]
+    },
+    {
+      "code": "PANW",
+      "name": "Palo Alto Networks",
+      "price": NaN,
+      "start_price": NaN,
+      "goal_price": NaN,
+      "progress": 0,
+      "status": "STANDBY",
+      "score": 50,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "サイバー",
+          "type": "hot"
+        },
+        {
+          "label": "防衛予算",
+          "type": "policy"
+        }
+      ]
+    },
+    {
+      "code": "CRWD",
+      "name": "CrowdStrike",
+      "price": NaN,
+      "start_price": NaN,
+      "goal_price": NaN,
+      "progress": 0,
+      "status": "STANDBY",
+      "score": 50,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "サイバー",
+          "type": "hot"
+        },
+        {
+          "label": "政府調達",
+          "type": "policy"
         }
       ]
     },
