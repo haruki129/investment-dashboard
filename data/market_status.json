@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-06T07:17:13.889919+09:00",
+  "timestamp": "2026-06-06T15:32:28.579714+09:00",
   "overall_score": 61,
   "fundamental": 25,
   "technical": 15,
@@ -18,8 +18,8 @@
     },
     {
       "name": "日経平均",
-      "value": 67470.69,
-      "change": -1.36
+      "value": 66588.12,
+      "change": -1.31
     },
     {
       "name": "VIX",
