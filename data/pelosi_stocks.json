@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-09T07:41:46.890394+09:00",
+  "updated": "2026-06-09T15:52:27.846844+09:00",
   "model": "Pelosi Eye - Policy × Innovation",
   "stocks": [
     {
@@ -153,8 +153,8 @@
       "code": "GOOGL",
       "name": "Alphabet",
       "price": 363.31,
-      "start_price": 383.5,
-      "goal_price": 388.18,
+      "start_price": 383.28,
+      "goal_price": 387.95,
       "progress": -100,
       "status": "STANDBY",
       "score": 40,
