@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-06-10T02:25:57.745961+09:00",
-  "overall_score": 58,
+  "timestamp": "2026-06-10T07:25:33.589644+09:00",
+  "overall_score": 64,
   "fundamental": 22,
-  "technical": 15,
-  "sentiment": 10,
+  "technical": 17,
+  "sentiment": 14,
   "macro": 11,
   "indices": [
     {
       "name": "S&P500",
-      "value": 7313.08,
-      "change": -1.25
+      "value": 7386.65,
+      "change": -0.26
     },
     {
       "name": "NASDAQ",
-      "value": 25353.27,
-      "change": -2.22
+      "value": 25678.82,
+      "change": -0.97
     },
     {
       "name": "日経平均",
@@ -23,19 +23,19 @@
     },
     {
       "name": "VIX",
-      "value": 21.88,
-      "change": 15.64
+      "value": 19.87,
+      "change": 5.02
     },
     {
       "name": "ドル円",
-      "value": 160.29,
-      "change": -0.02
+      "value": 160.36,
+      "change": 0.02
     }
   ],
   "actions": [
     {
-      "priority": "mid",
-      "text": "⚖️ 中立環境（58点）。ポジションは資金の5-10%に抑制"
+      "priority": "high",
+      "text": "🎯 買い検討環境（64点）。ペロシTOP5とQレシオ高い清原TOP3を優先チェック"
     },
     {
       "priority": "mid",
