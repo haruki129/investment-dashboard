@@ -1,16 +1,16 @@
 {
-  "updated": "2026-06-10T21:23:31.750554+09:00",
+  "updated": "2026-06-11T03:03:46.287634+09:00",
   "model": "Pelosi Eye - Policy × Innovation",
   "stocks": [
     {
       "code": "CRWD",
       "name": "CrowdStrike",
-      "price": NaN,
-      "start_price": NaN,
-      "goal_price": NaN,
-      "progress": 0,
+      "price": 657.26,
+      "start_price": 665.14,
+      "goal_price": 746.38,
+      "progress": -10,
       "status": "STANDBY",
-      "score": 50,
+      "score": 90,
       "signal": "分析済",
       "tags": [
         {
@@ -24,12 +24,75 @@
       ]
     },
     {
+      "code": "PANW",
+      "name": "Palo Alto Networks",
+      "price": 265.28,
+      "start_price": 261.14,
+      "goal_price": 287.8,
+      "progress": 16,
+      "status": "RUNNING",
+      "score": 75,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "サイバー",
+          "type": "hot"
+        },
+        {
+          "label": "防衛予算",
+          "type": "policy"
+        }
+      ]
+    },
+    {
+      "code": "AAPL",
+      "name": "Apple",
+      "price": 294.25,
+      "start_price": 304.53,
+      "goal_price": 353.1,
+      "progress": -21,
+      "status": "STANDBY",
+      "score": 50,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "AI",
+          "type": "hot"
+        },
+        {
+          "label": "ブランド",
+          "type": "growth"
+        }
+      ]
+    },
+    {
+      "code": "V",
+      "name": "Visa",
+      "price": 324.02,
+      "start_price": 324.61,
+      "goal_price": 353.94,
+      "progress": -2,
+      "status": "STANDBY",
+      "score": 50,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "金融",
+          "type": "policy"
+        },
+        {
+          "label": "安定",
+          "type": "growth"
+        }
+      ]
+    },
+    {
       "code": "AVGO",
       "name": "Broadcom",
-      "price": NaN,
-      "start_price": NaN,
-      "goal_price": NaN,
-      "progress": 0,
+      "price": 379.4,
+      "start_price": 423.54,
+      "goal_price": 470.25,
+      "progress": -94,
       "status": "STANDBY",
       "score": 50,
       "signal": "分析済",
@@ -47,12 +110,12 @@
     {
       "code": "MSFT",
       "name": "Microsoft",
-      "price": NaN,
-      "start_price": NaN,
-      "goal_price": NaN,
-      "progress": 0,
+      "price": 401.84,
+      "start_price": 421.38,
+      "goal_price": 523.5,
+      "progress": -19,
       "status": "STANDBY",
-      "score": 40,
+      "score": 45,
       "signal": "分析済",
       "tags": [
         {
@@ -61,69 +124,6 @@
         },
         {
           "label": "クラウド",
-          "type": "policy"
-        }
-      ]
-    },
-    {
-      "code": "GOOGL",
-      "name": "Alphabet",
-      "price": NaN,
-      "start_price": NaN,
-      "goal_price": NaN,
-      "progress": 0,
-      "status": "STANDBY",
-      "score": 40,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "AI",
-          "type": "hot"
-        },
-        {
-          "label": "クラウド",
-          "type": "growth"
-        }
-      ]
-    },
-    {
-      "code": "AAPL",
-      "name": "Apple",
-      "price": NaN,
-      "start_price": 305.3,
-      "goal_price": 301.53,
-      "progress": 0,
-      "status": "RUNNING",
-      "score": 40,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "AI",
-          "type": "hot"
-        },
-        {
-          "label": "ブランド",
-          "type": "growth"
-        }
-      ]
-    },
-    {
-      "code": "PANW",
-      "name": "Palo Alto Networks",
-      "price": NaN,
-      "start_price": NaN,
-      "goal_price": NaN,
-      "progress": 0,
-      "status": "STANDBY",
-      "score": 40,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "サイバー",
-          "type": "hot"
-        },
-        {
-          "label": "防衛予算",
           "type": "policy"
         }
       ]
@@ -131,10 +131,10 @@
     {
       "code": "NVDA",
       "name": "NVIDIA",
-      "price": NaN,
-      "start_price": NaN,
-      "goal_price": NaN,
-      "progress": 0,
+      "price": 203.16,
+      "start_price": 217.14,
+      "goal_price": 224.45,
+      "progress": -100,
       "status": "STANDBY",
       "score": 35,
       "signal": "分析済",
@@ -150,43 +150,22 @@
       ]
     },
     {
-      "code": "V",
-      "name": "Visa",
-      "price": NaN,
-      "start_price": NaN,
-      "goal_price": NaN,
-      "progress": 0,
+      "code": "GOOGL",
+      "name": "Alphabet",
+      "price": 357.11,
+      "start_price": 380.58,
+      "goal_price": 387.95,
+      "progress": -100,
       "status": "STANDBY",
       "score": 35,
       "signal": "分析済",
       "tags": [
         {
-          "label": "金融",
-          "type": "policy"
-        },
-        {
-          "label": "安定",
-          "type": "growth"
-        }
-      ]
-    },
-    {
-      "code": "AMZN",
-      "name": "Amazon",
-      "price": NaN,
-      "start_price": NaN,
-      "goal_price": NaN,
-      "progress": 0,
-      "status": "STANDBY",
-      "score": 35,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "クラウド",
+          "label": "AI",
           "type": "hot"
         },
         {
-          "label": "EC",
+          "label": "クラウド",
           "type": "growth"
         }
       ]
@@ -194,10 +173,10 @@
     {
       "code": "TSLA",
       "name": "Tesla",
-      "price": NaN,
-      "start_price": NaN,
-      "goal_price": NaN,
-      "progress": 0,
+      "price": 385.3,
+      "start_price": 420.08,
+      "goal_price": 473.89,
+      "progress": -65,
       "status": "STANDBY",
       "score": 30,
       "signal": "分析済",
@@ -208,6 +187,27 @@
         },
         {
           "label": "AI",
+          "type": "growth"
+        }
+      ]
+    },
+    {
+      "code": "AMZN",
+      "name": "Amazon",
+      "price": 239.15,
+      "start_price": 260.17,
+      "goal_price": 264.63,
+      "progress": -100,
+      "status": "STANDBY",
+      "score": 30,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "クラウド",
+          "type": "hot"
+        },
+        {
+          "label": "EC",
           "type": "growth"
         }
       ]
