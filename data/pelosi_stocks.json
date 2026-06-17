@@ -1,49 +1,7 @@
 {
-  "updated": "2026-06-17T17:30:32.528689+09:00",
+  "updated": "2026-06-17T21:52:59.273650+09:00",
   "model": "Pelosi Eye - Policy × Innovation",
   "stocks": [
-    {
-      "code": "PANW",
-      "name": "Palo Alto Networks",
-      "price": 279.9,
-      "start_price": 269.4,
-      "goal_price": 335.88,
-      "progress": 16,
-      "status": "RUNNING",
-      "score": 70,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "サイバー",
-          "type": "hot"
-        },
-        {
-          "label": "防衛予算",
-          "type": "policy"
-        }
-      ]
-    },
-    {
-      "code": "CRWD",
-      "name": "CrowdStrike",
-      "price": 679.49,
-      "start_price": 684.23,
-      "goal_price": 746.38,
-      "progress": -8,
-      "status": "STANDBY",
-      "score": 70,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "サイバー",
-          "type": "hot"
-        },
-        {
-          "label": "政府調達",
-          "type": "policy"
-        }
-      ]
-    },
     {
       "code": "V",
       "name": "Visa",
@@ -208,6 +166,48 @@
         },
         {
           "label": "CHIPS法",
+          "type": "policy"
+        }
+      ]
+    },
+    {
+      "code": "PANW",
+      "name": "Palo Alto Networks",
+      "price": NaN,
+      "start_price": NaN,
+      "goal_price": NaN,
+      "progress": 0,
+      "status": "STANDBY",
+      "score": 30,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "サイバー",
+          "type": "hot"
+        },
+        {
+          "label": "防衛予算",
+          "type": "policy"
+        }
+      ]
+    },
+    {
+      "code": "CRWD",
+      "name": "CrowdStrike",
+      "price": NaN,
+      "start_price": NaN,
+      "goal_price": NaN,
+      "progress": 0,
+      "status": "STANDBY",
+      "score": 30,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "サイバー",
+          "type": "hot"
+        },
+        {
+          "label": "政府調達",
           "type": "policy"
         }
       ]
