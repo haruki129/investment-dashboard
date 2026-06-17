@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T07:57:20.600615+09:00",
+  "updated": "2026-06-17T17:30:32.528689+09:00",
   "model": "Pelosi Eye - Policy × Innovation",
   "stocks": [
     {
@@ -45,6 +45,27 @@
       ]
     },
     {
+      "code": "V",
+      "name": "Visa",
+      "price": 333.12,
+      "start_price": 324.42,
+      "goal_price": 399.74,
+      "progress": 12,
+      "status": "RUNNING",
+      "score": 55,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "金融",
+          "type": "policy"
+        },
+        {
+          "label": "安定",
+          "type": "growth"
+        }
+      ]
+    },
+    {
       "code": "AAPL",
       "name": "Apple",
       "price": 299.24,
@@ -82,27 +103,6 @@
         },
         {
           "label": "AI",
-          "type": "growth"
-        }
-      ]
-    },
-    {
-      "code": "V",
-      "name": "Visa",
-      "price": 333.12,
-      "start_price": 324.42,
-      "goal_price": 399.74,
-      "progress": 12,
-      "status": "RUNNING",
-      "score": 50,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "金融",
-          "type": "policy"
-        },
-        {
-          "label": "安定",
           "type": "growth"
         }
       ]
