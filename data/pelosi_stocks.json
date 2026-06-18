@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T07:46:33.300272+09:00",
+  "updated": "2026-06-18T17:10:54.681269+09:00",
   "model": "Pelosi Eye - Policy × Innovation",
   "stocks": [
     {
@@ -66,6 +66,27 @@
       ]
     },
     {
+      "code": "AVGO",
+      "name": "Broadcom",
+      "price": 392.9,
+      "start_price": 414.06,
+      "goal_price": 470.25,
+      "progress": -38,
+      "status": "STANDBY",
+      "score": 50,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "半導体",
+          "type": "hot"
+        },
+        {
+          "label": "AI",
+          "type": "growth"
+        }
+      ]
+    },
+    {
       "code": "V",
       "name": "Visa",
       "price": 330.38,
@@ -103,27 +124,6 @@
         },
         {
           "label": "ブランド",
-          "type": "growth"
-        }
-      ]
-    },
-    {
-      "code": "AVGO",
-      "name": "Broadcom",
-      "price": 392.9,
-      "start_price": 414.06,
-      "goal_price": 470.25,
-      "progress": -38,
-      "status": "STANDBY",
-      "score": 40,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "半導体",
-          "type": "hot"
-        },
-        {
-          "label": "AI",
           "type": "growth"
         }
       ]
