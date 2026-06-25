@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T07:19:54.797810+09:00",
+  "updated": "2026-06-25T15:50:40.830436+09:00",
   "model": "Pelosi Eye - Policy × Innovation",
   "stocks": [
     {
@@ -150,6 +150,27 @@
       ]
     },
     {
+      "code": "AAPL",
+      "name": "Apple",
+      "price": 293.08,
+      "start_price": 301.51,
+      "goal_price": 351.7,
+      "progress": -17,
+      "status": "STANDBY",
+      "score": 40,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "AI",
+          "type": "hot"
+        },
+        {
+          "label": "ブランド",
+          "type": "growth"
+        }
+      ]
+    },
+    {
       "code": "NVDA",
       "name": "NVIDIA",
       "price": 199.0,
@@ -167,27 +188,6 @@
         {
           "label": "CHIPS法",
           "type": "policy"
-        }
-      ]
-    },
-    {
-      "code": "AAPL",
-      "name": "Apple",
-      "price": 293.08,
-      "start_price": 301.51,
-      "goal_price": 351.7,
-      "progress": -17,
-      "status": "STANDBY",
-      "score": 35,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "AI",
-          "type": "hot"
-        },
-        {
-          "label": "ブランド",
-          "type": "growth"
         }
       ]
     },
