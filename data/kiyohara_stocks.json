@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T20:09:52.578786+09:00",
+  "updated": "2026-06-29T01:13:42.763263+09:00",
   "model": "Kiyohara Eye - Small Cap Growth × Q Ratio",
   "note": "時価総額500億円以下／ROE15%以上／Qレシオ1.0以上",
   "stocks": [
@@ -132,9 +132,9 @@
     {
       "code": "6920.T",
       "name": "レーザーテック",
-      "price": 50000.0,
-      "start_price": 46558.0,
-      "goal_price": 55651.0,
+      "price": 49803.0,
+      "start_price": 46374.56,
+      "goal_price": 55431.74,
       "progress": 38,
       "status": "RUNNING",
       "score": 38,
