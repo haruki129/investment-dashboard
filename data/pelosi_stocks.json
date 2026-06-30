@@ -1,13 +1,13 @@
 {
-  "updated": "2026-06-30T20:46:09.661311+09:00",
+  "updated": "2026-07-01T02:07:33.069186+09:00",
   "model": "Pelosi Eye - Policy × Innovation",
   "stocks": [
     {
       "code": "V",
       "name": "Visa",
-      "price": 341.65,
-      "start_price": 325.78,
-      "goal_price": 409.98,
+      "price": 343.33,
+      "start_price": 326.81,
+      "goal_price": 412.0,
       "progress": 19,
       "status": "RUNNING",
       "score": 80,
@@ -26,12 +26,12 @@
     {
       "code": "PANW",
       "name": "Palo Alto Networks",
-      "price": 332.0,
-      "start_price": 285.24,
-      "goal_price": 398.4,
-      "progress": 41,
+      "price": 339.23,
+      "start_price": 287.18,
+      "goal_price": 407.08,
+      "progress": 43,
       "status": "RUNNING",
-      "score": 75,
+      "score": 70,
       "signal": "分析済",
       "tags": [
         {
@@ -45,12 +45,33 @@
       ]
     },
     {
+      "code": "GOOGL",
+      "name": "Alphabet",
+      "price": 357.61,
+      "start_price": 358.5,
+      "goal_price": 387.95,
+      "progress": -3,
+      "status": "STANDBY",
+      "score": 60,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "AI",
+          "type": "hot"
+        },
+        {
+          "label": "クラウド",
+          "type": "growth"
+        }
+      ]
+    },
+    {
       "code": "MSFT",
       "name": "Microsoft",
-      "price": 368.57,
-      "start_price": 396.02,
+      "price": 372.45,
+      "start_price": 391.62,
       "goal_price": 523.5,
-      "progress": -22,
+      "progress": -15,
       "status": "STANDBY",
       "score": 50,
       "signal": "分析済",
@@ -66,33 +87,12 @@
       ]
     },
     {
-      "code": "GOOGL",
-      "name": "Alphabet",
-      "price": 353.65,
-      "start_price": 359.43,
-      "goal_price": 387.95,
-      "progress": -20,
-      "status": "STANDBY",
-      "score": 50,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "AI",
-          "type": "hot"
-        },
-        {
-          "label": "クラウド",
-          "type": "growth"
-        }
-      ]
-    },
-    {
       "code": "AAPL",
       "name": "Apple",
-      "price": 281.74,
-      "start_price": 296.77,
-      "goal_price": 301.53,
-      "progress": -100,
+      "price": 289.34,
+      "start_price": 295.92,
+      "goal_price": 347.21,
+      "progress": -13,
       "status": "STANDBY",
       "score": 50,
       "signal": "分析済",
@@ -110,10 +110,10 @@
     {
       "code": "AMZN",
       "name": "Amazon",
-      "price": 240.14,
-      "start_price": 242.5,
+      "price": 239.84,
+      "start_price": 241.43,
       "goal_price": 264.63,
-      "progress": -11,
+      "progress": -7,
       "status": "STANDBY",
       "score": 50,
       "signal": "分析済",
@@ -131,10 +131,10 @@
     {
       "code": "TSLA",
       "name": "Tesla",
-      "price": 411.84,
-      "start_price": 400.36,
+      "price": 419.4,
+      "start_price": 400.53,
       "goal_price": 473.89,
-      "progress": 16,
+      "progress": 26,
       "status": "RUNNING",
       "score": 40,
       "signal": "分析済",
@@ -150,35 +150,14 @@
       ]
     },
     {
-      "code": "AVGO",
-      "name": "Broadcom",
-      "price": 372.45,
-      "start_price": 399.52,
-      "goal_price": 469.51,
-      "progress": -39,
-      "status": "STANDBY",
-      "score": 40,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "半導体",
-          "type": "hot"
-        },
-        {
-          "label": "AI",
-          "type": "growth"
-        }
-      ]
-    },
-    {
       "code": "CRWD",
       "name": "CrowdStrike",
-      "price": 742.91,
-      "start_price": 695.34,
-      "goal_price": 891.49,
-      "progress": 24,
+      "price": 762.37,
+      "start_price": 694.35,
+      "goal_price": 914.84,
+      "progress": 31,
       "status": "RUNNING",
-      "score": 35,
+      "score": 40,
       "signal": "分析済",
       "tags": [
         {
@@ -192,12 +171,33 @@
       ]
     },
     {
+      "code": "AVGO",
+      "name": "Broadcom",
+      "price": 375.21,
+      "start_price": 395.32,
+      "goal_price": 469.51,
+      "progress": -27,
+      "status": "STANDBY",
+      "score": 35,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "半導体",
+          "type": "hot"
+        },
+        {
+          "label": "AI",
+          "type": "growth"
+        }
+      ]
+    },
+    {
       "code": "NVDA",
       "name": "NVIDIA",
-      "price": 194.97,
-      "start_price": 206.92,
+      "price": 198.32,
+      "start_price": 205.63,
       "goal_price": 224.45,
-      "progress": -68,
+      "progress": -39,
       "status": "STANDBY",
       "score": 30,
       "signal": "分析済",
