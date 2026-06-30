@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-06-30T07:10:13.149354+09:00",
-  "overall_score": 71,
+  "timestamp": "2026-06-30T15:57:49.497067+09:00",
+  "overall_score": 73,
   "fundamental": 20,
-  "technical": 25,
+  "technical": 28,
   "sentiment": 14,
-  "macro": 12,
+  "macro": 11,
   "indices": [
     {
       "name": "S&P500",
@@ -18,8 +18,8 @@
     },
     {
       "name": "日経平均",
-      "value": 69360.88,
-      "change": -4.15
+      "value": 70062.32,
+      "change": 0.86
     },
     {
       "name": "VIX",
@@ -28,14 +28,14 @@
     },
     {
       "name": "ドル円",
-      "value": 161.91,
-      "change": 0.07
+      "value": 162.25,
+      "change": 0.29
     }
   ],
   "actions": [
     {
       "priority": "high",
-      "text": "🎯 買い検討環境（71点）。ペロシTOP5とQレシオ高い清原TOP3を優先チェック"
+      "text": "🎯 買い検討環境（73点）。ペロシTOP5とQレシオ高い清原TOP3を優先チェック"
     },
     {
       "priority": "mid",
@@ -43,7 +43,7 @@
     },
     {
       "priority": "mid",
-      "text": "🇯🇵 日本株TOP：十六FG（7380.T）スコア68点"
+      "text": "🇯🇵 日本株TOP：シーユーシー（9158.T）スコア63点"
     }
   ]
 }
