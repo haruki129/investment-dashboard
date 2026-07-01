@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T07:16:54.797330+09:00",
+  "updated": "2026-07-01T16:14:06.695677+09:00",
   "model": "Pelosi Eye - Policy × Innovation",
   "stocks": [
     {
@@ -129,27 +129,6 @@
       ]
     },
     {
-      "code": "CRWD",
-      "name": "CrowdStrike",
-      "price": 763.14,
-      "start_price": 694.39,
-      "goal_price": 915.77,
-      "progress": 31,
-      "status": "RUNNING",
-      "score": 45,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "サイバー",
-          "type": "hot"
-        },
-        {
-          "label": "政府調達",
-          "type": "policy"
-        }
-      ]
-    },
-    {
       "code": "TSLA",
       "name": "Tesla",
       "price": 420.6,
@@ -209,6 +188,27 @@
         {
           "label": "AI",
           "type": "growth"
+        }
+      ]
+    },
+    {
+      "code": "CRWD",
+      "name": "CrowdStrike",
+      "price": NaN,
+      "start_price": NaN,
+      "goal_price": NaN,
+      "progress": 0,
+      "status": "STANDBY",
+      "score": 30,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "サイバー",
+          "type": "hot"
+        },
+        {
+          "label": "政府調達",
+          "type": "policy"
         }
       ]
     }
