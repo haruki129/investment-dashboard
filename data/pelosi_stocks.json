@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02T07:19:15.307963+09:00",
+  "updated": "2026-07-02T15:42:59.215023+09:00",
   "model": "Pelosi Eye - Policy × Innovation",
   "stocks": [
     {
@@ -87,6 +87,27 @@
       ]
     },
     {
+      "code": "CRWD",
+      "name": "CrowdStrike",
+      "price": 193.18,
+      "start_price": 173.65,
+      "goal_price": 231.82,
+      "progress": 34,
+      "status": "RUNNING",
+      "score": 55,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "サイバー",
+          "type": "hot"
+        },
+        {
+          "label": "政府調達",
+          "type": "policy"
+        }
+      ]
+    },
+    {
       "code": "MSFT",
       "name": "Microsoft",
       "price": 384.28,
@@ -150,22 +171,22 @@
       ]
     },
     {
-      "code": "CRWD",
-      "name": "CrowdStrike",
-      "price": 772.74,
-      "start_price": 696.84,
-      "goal_price": 927.29,
-      "progress": 33,
-      "status": "RUNNING",
-      "score": 40,
+      "code": "NVDA",
+      "name": "NVIDIA",
+      "price": 197.58,
+      "start_price": 204.47,
+      "goal_price": 224.45,
+      "progress": -34,
+      "status": "STANDBY",
+      "score": 35,
       "signal": "分析済",
       "tags": [
         {
-          "label": "サイバー",
+          "label": "AI",
           "type": "hot"
         },
         {
-          "label": "政府調達",
+          "label": "CHIPS法",
           "type": "policy"
         }
       ]
@@ -188,27 +209,6 @@
         {
           "label": "AI",
           "type": "growth"
-        }
-      ]
-    },
-    {
-      "code": "NVDA",
-      "name": "NVIDIA",
-      "price": 197.58,
-      "start_price": 204.47,
-      "goal_price": 224.45,
-      "progress": -34,
-      "status": "STANDBY",
-      "score": 30,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "AI",
-          "type": "hot"
-        },
-        {
-          "label": "CHIPS法",
-          "type": "policy"
         }
       ]
     }
