@@ -1,13 +1,13 @@
 {
-  "updated": "2026-07-07T02:45:39.593095+09:00",
+  "updated": "2026-07-07T07:16:07.686440+09:00",
   "model": "Pelosi Eye - Policy × Innovation",
   "stocks": [
     {
       "code": "V",
       "name": "Visa",
-      "price": 356.89,
-      "start_price": 332.81,
-      "goal_price": 428.27,
+      "price": 357.25,
+      "start_price": 332.83,
+      "goal_price": 428.7,
       "progress": 25,
       "status": "RUNNING",
       "score": 90,
@@ -26,10 +26,10 @@
     {
       "code": "PANW",
       "name": "Palo Alto Networks",
-      "price": 356.36,
-      "start_price": 297.25,
-      "goal_price": 427.63,
-      "progress": 45,
+      "price": 357.53,
+      "start_price": 297.31,
+      "goal_price": 429.04,
+      "progress": 46,
       "status": "RUNNING",
       "score": 75,
       "signal": "分析済",
@@ -47,9 +47,9 @@
     {
       "code": "CRWD",
       "name": "CrowdStrike",
-      "price": 199.86,
-      "start_price": 175.0,
-      "goal_price": 239.83,
+      "price": 199.38,
+      "start_price": 174.98,
+      "goal_price": 239.26,
       "progress": 38,
       "status": "RUNNING",
       "score": 75,
@@ -68,9 +68,9 @@
     {
       "code": "AAPL",
       "name": "Apple",
-      "price": 312.39,
-      "start_price": 294.86,
-      "goal_price": 374.87,
+      "price": 312.66,
+      "start_price": 294.87,
+      "goal_price": 375.19,
       "progress": 22,
       "status": "RUNNING",
       "score": 60,
@@ -89,10 +89,10 @@
     {
       "code": "TSLA",
       "name": "Tesla",
-      "price": 414.54,
-      "start_price": 398.96,
+      "price": 419.77,
+      "start_price": 399.22,
       "goal_price": 473.89,
-      "progress": 21,
+      "progress": 28,
       "status": "RUNNING",
       "score": 60,
       "signal": "分析済",
@@ -110,10 +110,10 @@
     {
       "code": "MSFT",
       "name": "Microsoft",
-      "price": 385.11,
-      "start_price": 384.81,
+      "price": 386.74,
+      "start_price": 384.89,
       "goal_price": 523.5,
-      "progress": 0,
+      "progress": 1,
       "status": "RUNNING",
       "score": 50,
       "signal": "分析済",
@@ -131,10 +131,10 @@
     {
       "code": "AMZN",
       "name": "Amazon",
-      "price": 245.32,
-      "start_price": 239.82,
+      "price": 244.16,
+      "start_price": 239.76,
       "goal_price": 264.63,
-      "progress": 22,
+      "progress": 18,
       "status": "RUNNING",
       "score": 50,
       "signal": "分析済",
@@ -150,12 +150,33 @@
       ]
     },
     {
+      "code": "AVGO",
+      "name": "Broadcom",
+      "price": 373.9,
+      "start_price": 381.76,
+      "goal_price": 469.51,
+      "progress": -9,
+      "status": "STANDBY",
+      "score": 45,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "半導体",
+          "type": "hot"
+        },
+        {
+          "label": "AI",
+          "type": "growth"
+        }
+      ]
+    },
+    {
       "code": "NVDA",
       "name": "NVIDIA",
-      "price": 195.72,
-      "start_price": 202.34,
+      "price": 195.55,
+      "start_price": 202.33,
       "goal_price": 224.45,
-      "progress": -30,
+      "progress": -31,
       "status": "STANDBY",
       "score": 40,
       "signal": "分析済",
@@ -173,10 +194,10 @@
     {
       "code": "GOOGL",
       "name": "Alphabet",
-      "price": 364.36,
-      "start_price": 358.14,
+      "price": 366.46,
+      "start_price": 358.25,
       "goal_price": 387.95,
-      "progress": 21,
+      "progress": 28,
       "status": "RUNNING",
       "score": 40,
       "signal": "分析済",
@@ -187,27 +208,6 @@
         },
         {
           "label": "クラウド",
-          "type": "growth"
-        }
-      ]
-    },
-    {
-      "code": "AVGO",
-      "name": "Broadcom",
-      "price": 374.57,
-      "start_price": 381.79,
-      "goal_price": 469.51,
-      "progress": -8,
-      "status": "STANDBY",
-      "score": 40,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "半導体",
-          "type": "hot"
-        },
-        {
-          "label": "AI",
           "type": "growth"
         }
       ]
