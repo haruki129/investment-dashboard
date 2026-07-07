@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T07:16:07.686440+09:00",
+  "updated": "2026-07-07T15:49:20.117552+09:00",
   "model": "Pelosi Eye - Policy × Innovation",
   "stocks": [
     {
@@ -175,8 +175,8 @@
       "name": "NVIDIA",
       "price": 195.55,
       "start_price": 202.33,
-      "goal_price": 224.45,
-      "progress": -31,
+      "goal_price": 224.71,
+      "progress": -30,
       "status": "STANDBY",
       "score": 40,
       "signal": "分析済",
