@@ -1,16 +1,16 @@
 {
-  "updated": "2026-07-14T02:14:40.201039+09:00",
+  "updated": "2026-07-14T06:59:16.505488+09:00",
   "model": "Pelosi Eye - Policy × Innovation",
   "stocks": [
     {
       "code": "PANW",
       "name": "Palo Alto Networks",
-      "price": 329.48,
-      "start_price": 312.79,
+      "price": 330.3,
+      "start_price": 312.83,
       "goal_price": 349.76,
-      "progress": 45,
+      "progress": 47,
       "status": "RUNNING",
-      "score": 70,
+      "score": 75,
       "signal": "分析済",
       "tags": [
         {
@@ -24,12 +24,33 @@
       ]
     },
     {
+      "code": "V",
+      "name": "Visa",
+      "price": 357.75,
+      "start_price": 340.04,
+      "goal_price": 429.3,
+      "progress": 20,
+      "status": "RUNNING",
+      "score": 75,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "金融",
+          "type": "policy"
+        },
+        {
+          "label": "安定",
+          "type": "growth"
+        }
+      ]
+    },
+    {
       "code": "CRWD",
       "name": "CrowdStrike",
-      "price": 188.71,
-      "start_price": 181.56,
+      "price": 187.91,
+      "start_price": 181.52,
       "goal_price": 199.02,
-      "progress": 41,
+      "progress": 37,
       "status": "RUNNING",
       "score": 70,
       "signal": "分析済",
@@ -45,33 +66,12 @@
       ]
     },
     {
-      "code": "V",
-      "name": "Visa",
-      "price": 357.46,
-      "start_price": 340.03,
-      "goal_price": 428.95,
-      "progress": 20,
-      "status": "RUNNING",
-      "score": 70,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "金融",
-          "type": "policy"
-        },
-        {
-          "label": "安定",
-          "type": "growth"
-        }
-      ]
-    },
-    {
       "code": "AAPL",
       "name": "Apple",
-      "price": 316.11,
-      "start_price": 299.13,
-      "goal_price": 379.33,
-      "progress": 21,
+      "price": 317.31,
+      "start_price": 299.19,
+      "goal_price": 380.77,
+      "progress": 22,
       "status": "RUNNING",
       "score": 60,
       "signal": "分析済",
@@ -89,12 +89,12 @@
     {
       "code": "MSFT",
       "name": "Microsoft",
-      "price": 392.62,
-      "start_price": 380.63,
+      "price": 390.99,
+      "start_price": 380.55,
       "goal_price": 523.5,
-      "progress": 8,
+      "progress": 7,
       "status": "RUNNING",
-      "score": 50,
+      "score": 55,
       "signal": "分析済",
       "tags": [
         {
@@ -110,12 +110,12 @@
     {
       "code": "AVGO",
       "name": "Broadcom",
-      "price": 387.03,
-      "start_price": 382.68,
+      "price": 384.05,
+      "start_price": 382.53,
       "goal_price": 469.51,
-      "progress": 5,
+      "progress": 2,
       "status": "RUNNING",
-      "score": 50,
+      "score": 55,
       "signal": "分析済",
       "tags": [
         {
@@ -131,10 +131,10 @@
     {
       "code": "AMZN",
       "name": "Amazon",
-      "price": 248.18,
-      "start_price": 240.52,
+      "price": 247.31,
+      "start_price": 240.48,
       "goal_price": 264.63,
-      "progress": 32,
+      "progress": 28,
       "status": "RUNNING",
       "score": 50,
       "signal": "分析済",
@@ -152,10 +152,10 @@
     {
       "code": "NVDA",
       "name": "NVIDIA",
-      "price": 204.6,
-      "start_price": 201.94,
+      "price": 203.53,
+      "start_price": 201.88,
       "goal_price": 224.45,
-      "progress": 12,
+      "progress": 7,
       "status": "RUNNING",
       "score": 40,
       "signal": "分析済",
@@ -173,10 +173,10 @@
     {
       "code": "GOOGL",
       "name": "Alphabet",
-      "price": 356.22,
-      "start_price": 357.81,
+      "price": 352.51,
+      "start_price": 357.62,
       "goal_price": 387.95,
-      "progress": -5,
+      "progress": -17,
       "status": "STANDBY",
       "score": 40,
       "signal": "分析済",
@@ -194,8 +194,8 @@
     {
       "code": "TSLA",
       "name": "Tesla",
-      "price": 394.55,
-      "start_price": 400.65,
+      "price": 394.76,
+      "start_price": 400.66,
       "goal_price": 473.89,
       "progress": -8,
       "status": "STANDBY",
