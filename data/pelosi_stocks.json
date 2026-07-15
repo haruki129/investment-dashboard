@@ -1,14 +1,14 @@
 {
-  "updated": "2026-07-15T19:53:00.987422+09:00",
+  "updated": "2026-07-16T01:24:49.451219+09:00",
   "model": "Pelosi Eye - Policy × Innovation",
   "stocks": [
     {
       "code": "PANW",
       "name": "Palo Alto Networks",
-      "price": 352.89,
-      "start_price": 316.5,
-      "goal_price": 423.47,
-      "progress": 34,
+      "price": 354.89,
+      "start_price": 320.01,
+      "goal_price": 425.87,
+      "progress": 33,
       "status": "RUNNING",
       "score": 70,
       "signal": "分析済",
@@ -26,10 +26,10 @@
     {
       "code": "CRWD",
       "name": "CrowdStrike",
-      "price": 210.73,
-      "start_price": 183.52,
-      "goal_price": 252.88,
-      "progress": 39,
+      "price": 207.84,
+      "start_price": 185.25,
+      "goal_price": 249.41,
+      "progress": 35,
       "status": "RUNNING",
       "score": 70,
       "signal": "分析済",
@@ -45,98 +45,14 @@
       ]
     },
     {
-      "code": "MSFT",
-      "name": "Microsoft",
-      "price": NaN,
-      "start_price": NaN,
-      "goal_price": NaN,
-      "progress": 0,
-      "status": "STANDBY",
-      "score": 35,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "AI",
-          "type": "hot"
-        },
-        {
-          "label": "クラウド",
-          "type": "policy"
-        }
-      ]
-    },
-    {
-      "code": "V",
-      "name": "Visa",
-      "price": NaN,
-      "start_price": NaN,
-      "goal_price": NaN,
-      "progress": 0,
-      "status": "STANDBY",
-      "score": 35,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "金融",
-          "type": "policy"
-        },
-        {
-          "label": "安定",
-          "type": "growth"
-        }
-      ]
-    },
-    {
-      "code": "NVDA",
-      "name": "NVIDIA",
-      "price": NaN,
-      "start_price": NaN,
-      "goal_price": NaN,
-      "progress": 0,
-      "status": "STANDBY",
-      "score": 30,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "AI",
-          "type": "hot"
-        },
-        {
-          "label": "CHIPS法",
-          "type": "policy"
-        }
-      ]
-    },
-    {
-      "code": "GOOGL",
-      "name": "Alphabet",
-      "price": NaN,
-      "start_price": NaN,
-      "goal_price": NaN,
-      "progress": 0,
-      "status": "STANDBY",
-      "score": 30,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "AI",
-          "type": "hot"
-        },
-        {
-          "label": "クラウド",
-          "type": "growth"
-        }
-      ]
-    },
-    {
       "code": "AAPL",
       "name": "Apple",
-      "price": NaN,
-      "start_price": NaN,
-      "goal_price": NaN,
-      "progress": 0,
-      "status": "STANDBY",
-      "score": 30,
+      "price": 327.87,
+      "start_price": 301.95,
+      "goal_price": 393.44,
+      "progress": 28,
+      "status": "RUNNING",
+      "score": 60,
       "signal": "分析済",
       "tags": [
         {
@@ -150,35 +66,56 @@
       ]
     },
     {
-      "code": "TSLA",
-      "name": "Tesla",
-      "price": NaN,
-      "start_price": NaN,
-      "goal_price": NaN,
-      "progress": 0,
-      "status": "STANDBY",
-      "score": 30,
+      "code": "V",
+      "name": "Visa",
+      "price": 358.56,
+      "start_price": 343.46,
+      "goal_price": 430.27,
+      "progress": 17,
+      "status": "RUNNING",
+      "score": 60,
       "signal": "分析済",
       "tags": [
         {
-          "label": "EV",
+          "label": "金融",
+          "type": "policy"
+        },
+        {
+          "label": "安定",
+          "type": "growth"
+        }
+      ]
+    },
+    {
+      "code": "MSFT",
+      "name": "Microsoft",
+      "price": 397.33,
+      "start_price": 380.13,
+      "goal_price": 523.5,
+      "progress": 12,
+      "status": "RUNNING",
+      "score": 50,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "AI",
           "type": "hot"
         },
         {
-          "label": "AI",
-          "type": "growth"
+          "label": "クラウド",
+          "type": "policy"
         }
       ]
     },
     {
       "code": "AVGO",
       "name": "Broadcom",
-      "price": NaN,
-      "start_price": NaN,
-      "goal_price": NaN,
-      "progress": 0,
-      "status": "STANDBY",
-      "score": 30,
+      "price": 387.21,
+      "start_price": 382.61,
+      "goal_price": 469.51,
+      "progress": 5,
+      "status": "RUNNING",
+      "score": 50,
       "signal": "分析済",
       "tags": [
         {
@@ -194,12 +131,12 @@
     {
       "code": "AMZN",
       "name": "Amazon",
-      "price": NaN,
-      "start_price": NaN,
-      "goal_price": NaN,
-      "progress": 0,
-      "status": "STANDBY",
-      "score": 30,
+      "price": 255.49,
+      "start_price": 241.4,
+      "goal_price": 306.59,
+      "progress": 22,
+      "status": "RUNNING",
+      "score": 50,
       "signal": "分析済",
       "tags": [
         {
@@ -208,6 +145,69 @@
         },
         {
           "label": "EC",
+          "type": "growth"
+        }
+      ]
+    },
+    {
+      "code": "NVDA",
+      "name": "NVIDIA",
+      "price": 206.58,
+      "start_price": 201.92,
+      "goal_price": 224.45,
+      "progress": 21,
+      "status": "RUNNING",
+      "score": 40,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "AI",
+          "type": "hot"
+        },
+        {
+          "label": "CHIPS法",
+          "type": "policy"
+        }
+      ]
+    },
+    {
+      "code": "GOOGL",
+      "name": "Alphabet",
+      "price": 372.94,
+      "start_price": 357.79,
+      "goal_price": 447.53,
+      "progress": 17,
+      "status": "RUNNING",
+      "score": 40,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "AI",
+          "type": "hot"
+        },
+        {
+          "label": "クラウド",
+          "type": "growth"
+        }
+      ]
+    },
+    {
+      "code": "TSLA",
+      "name": "Tesla",
+      "price": 391.9,
+      "start_price": 399.18,
+      "goal_price": 473.89,
+      "progress": -10,
+      "status": "STANDBY",
+      "score": 40,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "EV",
+          "type": "hot"
+        },
+        {
+          "label": "AI",
           "type": "growth"
         }
       ]
