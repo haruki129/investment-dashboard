@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T07:00:14.194515+09:00",
+  "updated": "2026-07-15T14:34:50.461180+09:00",
   "model": "Pelosi Eye - Policy × Innovation",
   "stocks": [
     {
@@ -45,14 +45,35 @@
       ]
     },
     {
+      "code": "MSFT",
+      "name": "Microsoft",
+      "price": NaN,
+      "start_price": NaN,
+      "goal_price": NaN,
+      "progress": 0,
+      "status": "STANDBY",
+      "score": 35,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "AI",
+          "type": "hot"
+        },
+        {
+          "label": "クラウド",
+          "type": "policy"
+        }
+      ]
+    },
+    {
       "code": "V",
       "name": "Visa",
-      "price": 356.02,
-      "start_price": 341.72,
-      "goal_price": 427.22,
-      "progress": 17,
-      "status": "RUNNING",
-      "score": 65,
+      "price": NaN,
+      "start_price": NaN,
+      "goal_price": NaN,
+      "progress": 0,
+      "status": "STANDBY",
+      "score": 35,
       "signal": "分析済",
       "tags": [
         {
@@ -66,77 +87,14 @@
       ]
     },
     {
-      "code": "AAPL",
-      "name": "Apple",
-      "price": 314.86,
-      "start_price": 300.37,
-      "goal_price": 377.83,
-      "progress": 19,
-      "status": "RUNNING",
-      "score": 60,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "AI",
-          "type": "hot"
-        },
-        {
-          "label": "ブランド",
-          "type": "growth"
-        }
-      ]
-    },
-    {
-      "code": "AMZN",
-      "name": "Amazon",
-      "price": 247.49,
-      "start_price": 240.93,
-      "goal_price": 264.63,
-      "progress": 28,
-      "status": "RUNNING",
-      "score": 50,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "クラウド",
-          "type": "hot"
-        },
-        {
-          "label": "EC",
-          "type": "growth"
-        }
-      ]
-    },
-    {
-      "code": "MSFT",
-      "name": "Microsoft",
-      "price": 384.93,
-      "start_price": 380.25,
-      "goal_price": 523.5,
-      "progress": 3,
-      "status": "RUNNING",
-      "score": 45,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "AI",
-          "type": "hot"
-        },
-        {
-          "label": "クラウド",
-          "type": "policy"
-        }
-      ]
-    },
-    {
       "code": "NVDA",
       "name": "NVIDIA",
-      "price": 211.8,
-      "start_price": 202.21,
-      "goal_price": 224.45,
-      "progress": 43,
-      "status": "RUNNING",
-      "score": 40,
+      "price": NaN,
+      "start_price": NaN,
+      "goal_price": NaN,
+      "progress": 0,
+      "status": "STANDBY",
+      "score": 30,
       "signal": "分析済",
       "tags": [
         {
@@ -152,12 +110,12 @@
     {
       "code": "GOOGL",
       "name": "Alphabet",
-      "price": 359.51,
-      "start_price": 357.61,
-      "goal_price": 387.95,
-      "progress": 6,
-      "status": "RUNNING",
-      "score": 40,
+      "price": NaN,
+      "start_price": NaN,
+      "goal_price": NaN,
+      "progress": 0,
+      "status": "STANDBY",
+      "score": 30,
       "signal": "分析済",
       "tags": [
         {
@@ -171,14 +129,35 @@
       ]
     },
     {
+      "code": "AAPL",
+      "name": "Apple",
+      "price": NaN,
+      "start_price": NaN,
+      "goal_price": NaN,
+      "progress": 0,
+      "status": "STANDBY",
+      "score": 30,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "AI",
+          "type": "hot"
+        },
+        {
+          "label": "ブランド",
+          "type": "growth"
+        }
+      ]
+    },
+    {
       "code": "TSLA",
       "name": "Tesla",
-      "price": 396.18,
-      "start_price": 400.14,
-      "goal_price": 473.89,
-      "progress": -5,
+      "price": NaN,
+      "start_price": NaN,
+      "goal_price": NaN,
+      "progress": 0,
       "status": "STANDBY",
-      "score": 40,
+      "score": 30,
       "signal": "分析済",
       "tags": [
         {
@@ -194,12 +173,12 @@
     {
       "code": "AVGO",
       "name": "Broadcom",
-      "price": 389.11,
-      "start_price": 382.91,
-      "goal_price": 469.51,
-      "progress": 7,
-      "status": "RUNNING",
-      "score": 40,
+      "price": NaN,
+      "start_price": NaN,
+      "goal_price": NaN,
+      "progress": 0,
+      "status": "STANDBY",
+      "score": 30,
       "signal": "分析済",
       "tags": [
         {
@@ -208,6 +187,27 @@
         },
         {
           "label": "AI",
+          "type": "growth"
+        }
+      ]
+    },
+    {
+      "code": "AMZN",
+      "name": "Amazon",
+      "price": NaN,
+      "start_price": NaN,
+      "goal_price": NaN,
+      "progress": 0,
+      "status": "STANDBY",
+      "score": 30,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "クラウド",
+          "type": "hot"
+        },
+        {
+          "label": "EC",
           "type": "growth"
         }
       ]
