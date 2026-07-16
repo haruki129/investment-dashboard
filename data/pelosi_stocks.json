@@ -1,16 +1,16 @@
 {
-  "updated": "2026-07-17T01:18:47.802128+09:00",
+  "updated": "2026-07-17T07:04:59.087458+09:00",
   "model": "Pelosi Eye - Policy × Innovation",
   "stocks": [
     {
       "code": "AAPL",
       "name": "Apple",
-      "price": 331.2,
-      "start_price": 303.53,
-      "goal_price": 397.44,
-      "progress": 29,
+      "price": 333.26,
+      "start_price": 303.63,
+      "goal_price": 399.91,
+      "progress": 31,
       "status": "RUNNING",
-      "score": 70,
+      "score": 75,
       "signal": "分析済",
       "tags": [
         {
@@ -24,12 +24,33 @@
       ]
     },
     {
+      "code": "V",
+      "name": "Visa",
+      "price": 365.14,
+      "start_price": 344.89,
+      "goal_price": 438.17,
+      "progress": 22,
+      "status": "RUNNING",
+      "score": 75,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "金融",
+          "type": "policy"
+        },
+        {
+          "label": "安定",
+          "type": "growth"
+        }
+      ]
+    },
+    {
       "code": "PANW",
       "name": "Palo Alto Networks",
-      "price": 356.25,
-      "start_price": 323.79,
-      "goal_price": 427.5,
-      "progress": 31,
+      "price": 353.99,
+      "start_price": 323.67,
+      "goal_price": 424.79,
+      "progress": 30,
       "status": "RUNNING",
       "score": 70,
       "signal": "分析済",
@@ -47,10 +68,10 @@
     {
       "code": "CRWD",
       "name": "CrowdStrike",
-      "price": 205.1,
-      "start_price": 186.96,
-      "goal_price": 246.12,
-      "progress": 31,
+      "price": 203.76,
+      "start_price": 186.89,
+      "goal_price": 244.51,
+      "progress": 29,
       "status": "RUNNING",
       "score": 70,
       "signal": "分析済",
@@ -66,35 +87,14 @@
       ]
     },
     {
-      "code": "V",
-      "name": "Visa",
-      "price": 361.66,
-      "start_price": 344.72,
-      "goal_price": 433.99,
-      "progress": 19,
-      "status": "RUNNING",
-      "score": 65,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "金融",
-          "type": "policy"
-        },
-        {
-          "label": "安定",
-          "type": "growth"
-        }
-      ]
-    },
-    {
       "code": "MSFT",
       "name": "Microsoft",
-      "price": 400.5,
-      "start_price": 380.38,
+      "price": 401.1,
+      "start_price": 380.41,
       "goal_price": 523.5,
       "progress": 14,
       "status": "RUNNING",
-      "score": 60,
+      "score": 65,
       "signal": "分析済",
       "tags": [
         {
@@ -110,10 +110,10 @@
     {
       "code": "AMZN",
       "name": "Amazon",
-      "price": 256.33,
-      "start_price": 241.89,
-      "goal_price": 307.6,
-      "progress": 22,
+      "price": 249.89,
+      "start_price": 241.57,
+      "goal_price": 264.63,
+      "progress": 36,
       "status": "RUNNING",
       "score": 60,
       "signal": "分析済",
@@ -131,10 +131,10 @@
     {
       "code": "NVDA",
       "name": "NVIDIA",
-      "price": 207.03,
-      "start_price": 202.2,
+      "price": 207.4,
+      "start_price": 202.22,
       "goal_price": 224.45,
-      "progress": 22,
+      "progress": 23,
       "status": "RUNNING",
       "score": 50,
       "signal": "分析済",
@@ -152,12 +152,12 @@
     {
       "code": "GOOGL",
       "name": "Alphabet",
-      "price": 371.73,
-      "start_price": 357.62,
-      "goal_price": 446.08,
-      "progress": 16,
-      "status": "RUNNING",
-      "score": 50,
+      "price": 354.46,
+      "start_price": 356.75,
+      "goal_price": 387.95,
+      "progress": -7,
+      "status": "STANDBY",
+      "score": 40,
       "signal": "分析済",
       "tags": [
         {
@@ -173,10 +173,10 @@
     {
       "code": "TSLA",
       "name": "Tesla",
-      "price": 389.07,
-      "start_price": 398.53,
+      "price": 391.06,
+      "start_price": 398.63,
       "goal_price": 473.89,
-      "progress": -13,
+      "progress": -10,
       "status": "STANDBY",
       "score": 40,
       "signal": "分析済",
@@ -194,10 +194,10 @@
     {
       "code": "AVGO",
       "name": "Broadcom",
-      "price": 380.59,
-      "start_price": 383.19,
+      "price": 374.45,
+      "start_price": 382.88,
       "goal_price": 469.51,
-      "progress": -3,
+      "progress": -10,
       "status": "STANDBY",
       "score": 40,
       "signal": "分析済",

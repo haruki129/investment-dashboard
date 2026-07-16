@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-07-17T01:18:47.802128+09:00",
+  "timestamp": "2026-07-17T07:04:59.087458+09:00",
   "overall_score": 68,
-  "fundamental": 21,
-  "technical": 22,
+  "fundamental": 22,
+  "technical": 21,
   "sentiment": 14,
   "macro": 11,
   "indices": [
     {
       "name": "S&P500",
-      "value": 7550.38,
-      "change": -0.29
+      "value": 7533.77,
+      "change": -0.51
     },
     {
       "name": "NASDAQ",
-      "value": 26022.57,
-      "change": -0.94
+      "value": 25881.95,
+      "change": -1.47
     },
     {
       "name": "日経平均",
@@ -23,13 +23,13 @@
     },
     {
       "name": "VIX",
-      "value": 16.08,
-      "change": 2.62
+      "value": 16.73,
+      "change": 6.76
     },
     {
       "name": "ドル円",
-      "value": 162.47,
-      "change": 0.18
+      "value": 162.29,
+      "change": 0.07
     }
   ],
   "actions": [
@@ -39,7 +39,7 @@
     },
     {
       "priority": "mid",
-      "text": "🇺🇸 米国株TOP：Apple（AAPL）スコア70点"
+      "text": "🇺🇸 米国株TOP：Apple（AAPL）スコア75点"
     },
     {
       "priority": "mid",
