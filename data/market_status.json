@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-07-18T01:16:59.989583+09:00",
-  "overall_score": 63,
+  "timestamp": "2026-07-18T06:55:50.365271+09:00",
+  "overall_score": 62,
   "fundamental": 22,
-  "technical": 16,
+  "technical": 15,
   "sentiment": 14,
   "macro": 11,
   "indices": [
     {
       "name": "S&P500",
-      "value": 7486.7,
-      "change": -0.62
+      "value": 7457.69,
+      "change": -1.01
     },
     {
       "name": "NASDAQ",
-      "value": 25599.56,
-      "change": -1.09
+      "value": 25520.24,
+      "change": -1.4
     },
     {
       "name": "日経平均",
@@ -23,19 +23,19 @@
     },
     {
       "name": "VIX",
-      "value": 17.99,
-      "change": 7.53
+      "value": 18.77,
+      "change": 12.19
     },
     {
       "name": "ドル円",
-      "value": 162.48,
-      "change": 0.25
+      "value": 162.35,
+      "change": 0.17
     }
   ],
   "actions": [
     {
       "priority": "high",
-      "text": "🎯 買い検討環境（63点）。ペロシTOP5とQレシオ高い清原TOP3を優先チェック"
+      "text": "🎯 買い検討環境（62点）。ペロシTOP5とQレシオ高い清原TOP3を優先チェック"
     },
     {
       "priority": "mid",
