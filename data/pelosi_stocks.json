@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27T15:32:48.112411+09:00",
+  "updated": "2026-07-27T21:26:32.826690+09:00",
   "model": "Pelosi Eye - Policy × Innovation",
   "stocks": [
     {
@@ -194,10 +194,10 @@
     {
       "code": "TSLA",
       "name": "Tesla",
-      "price": NaN,
-      "start_price": NaN,
-      "goal_price": NaN,
-      "progress": 0,
+      "price": 313.03,
+      "start_price": 388.72,
+      "goal_price": 473.89,
+      "progress": -89,
       "status": "STANDBY",
       "score": 30,
       "signal": "分析済",
