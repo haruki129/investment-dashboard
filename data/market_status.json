@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-07-30T01:23:17.391318+09:00",
-  "overall_score": 55,
-  "fundamental": 18,
-  "technical": 16,
+  "timestamp": "2026-07-30T07:02:41.900588+09:00",
+  "overall_score": 56,
+  "fundamental": 20,
+  "technical": 15,
   "sentiment": 10,
   "macro": 11,
   "indices": [
     {
       "name": "S&P500",
-      "value": 7358.22,
-      "change": -0.95
+      "value": 7316.15,
+      "change": -1.52
     },
     {
       "name": "NASDAQ",
-      "value": 24583.81,
-      "change": -1.18
+      "value": 24442.94,
+      "change": -1.74
     },
     {
       "name": "日経平均",
@@ -23,23 +23,23 @@
     },
     {
       "name": "VIX",
-      "value": 20.11,
-      "change": 10.43
+      "value": 20.66,
+      "change": 13.45
     },
     {
       "name": "ドル円",
-      "value": 163.86,
-      "change": 0.06
+      "value": 163.38,
+      "change": -0.24
     }
   ],
   "actions": [
     {
       "priority": "mid",
-      "text": "⚖️ 中立環境（55点）。ポジションは資金の5-10%に抑制"
+      "text": "⚖️ 中立環境（56点）。ポジションは資金の5-10%に抑制"
     },
     {
       "priority": "mid",
-      "text": "🇺🇸 米国株TOP：Apple（AAPL）スコア70点"
+      "text": "🇺🇸 米国株TOP：Apple（AAPL）スコア75点"
     },
     {
       "priority": "mid",
