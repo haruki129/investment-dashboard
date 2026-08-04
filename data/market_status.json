@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-05T01:53:51.831952+09:00",
+  "timestamp": "2026-08-05T07:14:46.232701+09:00",
   "overall_score": 76,
   "fundamental": 25,
   "technical": 26,
@@ -8,13 +8,13 @@
   "indices": [
     {
       "name": "S&P500",
-      "value": 7726.28,
-      "change": 1.65
+      "value": 7736.52,
+      "change": 1.79
     },
     {
       "name": "NASDAQ",
-      "value": 26489.72,
-      "change": 2.22
+      "value": 26584.99,
+      "change": 2.59
     },
     {
       "name": "日経平均",
@@ -23,13 +23,13 @@
     },
     {
       "name": "VIX",
-      "value": 16.17,
-      "change": 1.95
+      "value": 16.5,
+      "change": 4.04
     },
     {
       "name": "ドル円",
-      "value": 157.62,
-      "change": 0.02
+      "value": 157.72,
+      "change": 0.09
     }
   ],
   "actions": [
@@ -39,7 +39,7 @@
     },
     {
       "priority": "mid",
-      "text": "⚡ MicrosoftがGOAL目前（進捗76%）"
+      "text": "⚡ MicrosoftがGOAL目前（進捗74%）"
     },
     {
       "priority": "mid",
