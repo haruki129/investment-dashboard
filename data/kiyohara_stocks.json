@@ -1,15 +1,15 @@
 {
-  "updated": "2026-08-06T01:43:27.684614+09:00",
+  "updated": "2026-08-06T07:13:56.431226+09:00",
   "model": "Kiyohara Eye - Small Cap Growth × Q Ratio",
   "note": "時価総額500億円以下／ROE15%以上／Qレシオ1.0以上",
   "stocks": [
     {
       "code": "9158.T",
       "name": "シーユーシー",
-      "price": NaN,
-      "start_price": NaN,
-      "goal_price": NaN,
-      "progress": 0,
+      "price": 728.0,
+      "start_price": 792.05,
+      "goal_price": 1250.2,
+      "progress": -14,
       "status": "STANDBY",
       "score": 63,
       "signal": "分析済",
@@ -25,33 +25,12 @@
       ]
     },
     {
-      "code": "7380.T",
-      "name": "十六FG",
-      "price": NaN,
-      "start_price": NaN,
-      "goal_price": NaN,
-      "progress": 0,
-      "status": "STANDBY",
-      "score": 58,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "金融",
-          "type": "policy"
-        },
-        {
-          "label": "割安",
-          "type": "growth"
-        }
-      ]
-    },
-    {
       "code": "5132.T",
       "name": "pluszero",
-      "price": NaN,
-      "start_price": NaN,
-      "goal_price": NaN,
-      "progress": 0,
+      "price": 1910.0,
+      "start_price": 1932.15,
+      "goal_price": 4270.25,
+      "progress": -1,
       "status": "STANDBY",
       "score": 45,
       "signal": "分析済",
@@ -67,13 +46,34 @@
       ]
     },
     {
+      "code": "7380.T",
+      "name": "十六FG",
+      "price": 2384.0,
+      "start_price": 2452.55,
+      "goal_price": 2860.8,
+      "progress": -17,
+      "status": "STANDBY",
+      "score": 43,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "金融",
+          "type": "policy"
+        },
+        {
+          "label": "割安",
+          "type": "growth"
+        }
+      ]
+    },
+    {
       "code": "4592.T",
       "name": "サンバイオ",
-      "price": NaN,
-      "start_price": NaN,
-      "goal_price": NaN,
+      "price": 971.0,
+      "start_price": 977.75,
+      "goal_price": 3790.5,
       "progress": 0,
-      "status": "STANDBY",
+      "status": "RUNNING",
       "score": 40,
       "signal": "分析済",
       "tags": [
@@ -111,11 +111,11 @@
     {
       "code": "4011.T",
       "name": "ヘッドウォータース",
-      "price": NaN,
-      "start_price": NaN,
-      "goal_price": NaN,
-      "progress": 0,
-      "status": "STANDBY",
+      "price": 2040.0,
+      "start_price": 1993.7,
+      "goal_price": 3971.0,
+      "progress": 2,
+      "status": "RUNNING",
       "score": 38,
       "signal": "分析済",
       "tags": [
@@ -132,11 +132,11 @@
     {
       "code": "6920.T",
       "name": "レーザーテック",
-      "price": NaN,
-      "start_price": NaN,
-      "goal_price": NaN,
-      "progress": 0,
-      "status": "STANDBY",
+      "price": 46680.0,
+      "start_price": 42486.5,
+      "goal_price": 55431.74,
+      "progress": 32,
+      "status": "RUNNING",
       "score": 38,
       "signal": "分析済",
       "tags": [
@@ -153,11 +153,11 @@
     {
       "code": "4180.T",
       "name": "Appier Group",
-      "price": NaN,
-      "start_price": NaN,
-      "goal_price": NaN,
-      "progress": 0,
-      "status": "STANDBY",
+      "price": 976.0,
+      "start_price": 924.05,
+      "goal_price": 1654.39,
+      "progress": 7,
+      "status": "RUNNING",
       "score": 30,
       "signal": "分析済",
       "tags": [
@@ -174,11 +174,11 @@
     {
       "code": "4375.T",
       "name": "セーフィー",
-      "price": NaN,
-      "start_price": NaN,
-      "goal_price": NaN,
-      "progress": 0,
-      "status": "STANDBY",
+      "price": 661.0,
+      "start_price": 655.85,
+      "goal_price": 1132.4,
+      "progress": 1,
+      "status": "RUNNING",
       "score": 30,
       "signal": "分析済",
       "tags": [
