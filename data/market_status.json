@@ -1,45 +1,41 @@
 {
-  "timestamp": "2026-08-05T20:22:27.540525+09:00",
-  "overall_score": 80,
-  "fundamental": 25,
-  "technical": 30,
+  "timestamp": "2026-08-06T01:43:27.684614+09:00",
+  "overall_score": 71,
+  "fundamental": 24,
+  "technical": 22,
   "sentiment": 14,
   "macro": 11,
   "indices": [
     {
       "name": "S&P500",
-      "value": 7736.52,
-      "change": 1.79
+      "value": 7740.64,
+      "change": 0.05
     },
     {
       "name": "NASDAQ",
-      "value": 26584.99,
-      "change": 2.59
+      "value": 26497.05,
+      "change": -0.33
     },
     {
       "name": "日経平均",
-      "value": 66300.44,
-      "change": 3.66
+      "value": 63957.53,
+      "change": 0.32
     },
     {
       "name": "VIX",
-      "value": 16.58,
-      "change": 0.48
+      "value": 16.03,
+      "change": -2.85
     },
     {
       "name": "ドル円",
-      "value": 157.5,
-      "change": -0.02
+      "value": 157.68,
+      "change": 0.1
     }
   ],
   "actions": [
     {
       "priority": "high",
-      "text": "🔥 強い買いシグナル中（80点）。ペロシTOP3（Microsoft等）に注目"
-    },
-    {
-      "priority": "mid",
-      "text": "⚡ MicrosoftがGOAL目前（進捗74%）"
+      "text": "🎯 買い検討環境（71点）。ペロシTOP5とQレシオ高い清原TOP3を優先チェック"
     },
     {
       "priority": "mid",
