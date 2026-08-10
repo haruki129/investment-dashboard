@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-08-10T13:39:49.588673+09:00",
-  "overall_score": 80,
+  "timestamp": "2026-08-10T19:18:33.738760+09:00",
+  "overall_score": 76,
   "fundamental": 24,
   "technical": 28,
-  "sentiment": 18,
+  "sentiment": 14,
   "macro": 10,
   "indices": [
     {
@@ -18,24 +18,24 @@
     },
     {
       "name": "日経平均",
-      "value": 66913.94,
-      "change": 1.99
+      "value": 66970.22,
+      "change": 2.08
     },
     {
       "name": "VIX",
-      "value": 14.9,
-      "change": -1.65
+      "value": 15.44,
+      "change": 3.62
     },
     {
       "name": "ドル円",
-      "value": 158.27,
-      "change": -0.09
+      "value": 158.84,
+      "change": 0.27
     }
   ],
   "actions": [
     {
       "priority": "high",
-      "text": "🔥 強い買いシグナル中（80点）。ペロシTOP3（Microsoft等）に注目"
+      "text": "🎯 買い検討環境（76点）。ペロシTOP5とQレシオ高い清原TOP3を優先チェック"
     },
     {
       "priority": "mid",
