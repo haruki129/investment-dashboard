@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-11T06:43:40.879196+09:00",
+  "updated": "2026-08-11T13:21:22.310650+09:00",
   "model": "Pelosi Eye - Policy × Innovation",
   "stocks": [
     {
@@ -153,8 +153,8 @@
       "code": "AAPL",
       "name": "Apple",
       "price": 308.26,
-      "start_price": 322.98,
-      "goal_price": 327.34,
+      "start_price": 322.71,
+      "goal_price": 327.06,
       "progress": -100,
       "status": "STANDBY",
       "score": 45,
