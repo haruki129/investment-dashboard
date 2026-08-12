@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-13T00:59:56.106203+09:00",
+  "timestamp": "2026-08-13T06:49:24.268737+09:00",
   "overall_score": 74,
   "fundamental": 20,
   "technical": 26,
@@ -8,13 +8,13 @@
   "indices": [
     {
       "name": "S&P500",
-      "value": 7742.53,
-      "change": 0.19
+      "value": 7748.5,
+      "change": 0.26
     },
     {
       "name": "NASDAQ",
-      "value": 26545.94,
-      "change": 0.38
+      "value": 26588.49,
+      "change": 0.54
     },
     {
       "name": "日経平均",
@@ -23,13 +23,13 @@
     },
     {
       "name": "VIX",
-      "value": 14.82,
-      "change": -3.01
+      "value": 14.55,
+      "change": -4.78
     },
     {
       "name": "ドル円",
-      "value": 159.23,
-      "change": 0.04
+      "value": 159.41,
+      "change": 0.16
     }
   ],
   "actions": [
@@ -39,7 +39,7 @@
     },
     {
       "priority": "mid",
-      "text": "🇺🇸 米国株TOP：Microsoft（MSFT）スコア70点"
+      "text": "🇺🇸 米国株TOP：Microsoft（MSFT）スコア75点"
     },
     {
       "priority": "mid",
