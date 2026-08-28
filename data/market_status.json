@@ -1,45 +1,45 @@
 {
-  "timestamp": "2026-08-27T22:55:38.038462+09:00",
-  "overall_score": 67,
-  "fundamental": 21,
-  "technical": 22,
-  "sentiment": 14,
+  "timestamp": "2026-08-28T09:17:30.151958+09:00",
+  "overall_score": 74,
+  "fundamental": 22,
+  "technical": 24,
+  "sentiment": 18,
   "macro": 10,
   "indices": [
     {
       "name": "S&P500",
-      "value": 7705.26,
-      "change": 0.39
+      "value": 7730.99,
+      "change": 0.72
     },
     {
       "name": "NASDAQ",
-      "value": 26370.39,
-      "change": 0.92
+      "value": 26541.35,
+      "change": 1.57
     },
     {
       "name": "日経平均",
-      "value": 66131.98,
-      "change": -0.2
+      "value": 66215.89,
+      "change": -0.07
     },
     {
       "name": "VIX",
-      "value": 15.02,
-      "change": -1.25
+      "value": 14.51,
+      "change": -4.6
     },
     {
       "name": "ドル円",
-      "value": 159.35,
-      "change": 0.08
+      "value": 159.37,
+      "change": 0.07
     }
   ],
   "actions": [
     {
       "priority": "high",
-      "text": "🎯 買い検討環境（67点）。ペロシTOP5とQレシオ高い清原TOP3を優先チェック"
+      "text": "🎯 買い検討環境（74点）。ペロシTOP5とQレシオ高い清原TOP3を優先チェック"
     },
     {
       "priority": "mid",
-      "text": "🇺🇸 米国株TOP：NVIDIA（NVDA）スコア70点"
+      "text": "🇺🇸 米国株TOP：NVIDIA（NVDA）スコア75点"
     },
     {
       "priority": "mid",
