@@ -1,14 +1,14 @@
 {
-  "updated": "2026-09-03T03:28:22.688459+09:00",
+  "updated": "2026-09-03T08:05:54.780908+09:00",
   "model": "Pelosi Eye - Policy × Innovation",
   "stocks": [
     {
       "code": "TSLA",
       "name": "Tesla",
-      "price": 352.13,
-      "start_price": 344.08,
+      "price": 357.01,
+      "start_price": 344.32,
       "goal_price": 473.89,
-      "progress": 6,
+      "progress": 10,
       "status": "RUNNING",
       "score": 70,
       "signal": "分析済",
@@ -24,12 +24,33 @@
       ]
     },
     {
+      "code": "CRWD",
+      "name": "CrowdStrike",
+      "price": 203.42,
+      "start_price": 210.25,
+      "goal_price": 222.19,
+      "progress": -57,
+      "status": "STANDBY",
+      "score": 60,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "サイバー",
+          "type": "hot"
+        },
+        {
+          "label": "政府調達",
+          "type": "policy"
+        }
+      ]
+    },
+    {
       "code": "NVDA",
       "name": "NVIDIA",
-      "price": 224.89,
-      "start_price": 219.31,
-      "goal_price": 269.87,
-      "progress": 11,
+      "price": 224.41,
+      "start_price": 219.29,
+      "goal_price": 269.29,
+      "progress": 10,
       "status": "RUNNING",
       "score": 55,
       "signal": "分析済",
@@ -47,10 +68,10 @@
     {
       "code": "AAPL",
       "name": "Apple",
-      "price": 326.35,
-      "start_price": 312.06,
-      "goal_price": 391.62,
-      "progress": 18,
+      "price": 324.96,
+      "start_price": 311.99,
+      "goal_price": 389.95,
+      "progress": 17,
       "status": "RUNNING",
       "score": 50,
       "signal": "分析済",
@@ -66,32 +87,11 @@
       ]
     },
     {
-      "code": "CRWD",
-      "name": "CrowdStrike",
-      "price": 202.65,
-      "start_price": 210.21,
-      "goal_price": 222.19,
-      "progress": -63,
-      "status": "STANDBY",
-      "score": 50,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "サイバー",
-          "type": "hot"
-        },
-        {
-          "label": "政府調達",
-          "type": "policy"
-        }
-      ]
-    },
-    {
       "code": "V",
       "name": "Visa",
-      "price": 378.8,
-      "start_price": 369.92,
-      "goal_price": 454.56,
+      "price": 378.4,
+      "start_price": 369.9,
+      "goal_price": 454.08,
       "progress": 10,
       "status": "RUNNING",
       "score": 50,
@@ -110,10 +110,10 @@
     {
       "code": "MSFT",
       "name": "Microsoft",
-      "price": 496.06,
-      "start_price": 494.71,
+      "price": 496.82,
+      "start_price": 494.75,
       "goal_price": 521.74,
-      "progress": 5,
+      "progress": 8,
       "status": "RUNNING",
       "score": 40,
       "signal": "分析済",
@@ -131,12 +131,12 @@
     {
       "code": "PANW",
       "name": "Palo Alto Networks",
-      "price": 324.74,
-      "start_price": 366.06,
+      "price": 328.48,
+      "start_price": 366.24,
       "goal_price": 378.94,
       "progress": -100,
       "status": "STANDBY",
-      "score": 35,
+      "score": 40,
       "signal": "分析済",
       "tags": [
         {
@@ -152,10 +152,10 @@
     {
       "code": "GOOGL",
       "name": "Alphabet",
-      "price": 337.45,
-      "start_price": 345.18,
+      "price": 337.12,
+      "start_price": 345.17,
       "goal_price": 387.95,
-      "progress": -18,
+      "progress": -19,
       "status": "STANDBY",
       "score": 30,
       "signal": "分析済",
@@ -173,10 +173,10 @@
     {
       "code": "AVGO",
       "name": "Broadcom",
-      "price": 368.9,
-      "start_price": 385.07,
+      "price": 367.24,
+      "start_price": 384.99,
       "goal_price": 469.51,
-      "progress": -19,
+      "progress": -21,
       "status": "STANDBY",
       "score": 30,
       "signal": "分析済",
@@ -194,10 +194,10 @@
     {
       "code": "AMZN",
       "name": "Amazon",
-      "price": 254.7,
-      "start_price": 263.65,
+      "price": 254.98,
+      "start_price": 263.66,
       "goal_price": 272.84,
-      "progress": -97,
+      "progress": -95,
       "status": "STANDBY",
       "score": 30,
       "signal": "分析済",
