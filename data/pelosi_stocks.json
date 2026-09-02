@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T16:43:41.313918+09:00",
+  "updated": "2026-09-02T22:23:14.101594+09:00",
   "model": "Pelosi Eye - Policy × Innovation",
   "stocks": [
     {
@@ -90,9 +90,9 @@
       "code": "V",
       "name": "Visa",
       "price": 372.67,
-      "start_price": 370.06,
+      "start_price": 369.42,
       "goal_price": 447.2,
-      "progress": 3,
+      "progress": 4,
       "status": "RUNNING",
       "score": 50,
       "signal": "分析済",
@@ -132,9 +132,9 @@
       "code": "PANW",
       "name": "Palo Alto Networks",
       "price": 362.09,
-      "start_price": 368.4,
+      "start_price": 368.14,
       "goal_price": 434.51,
-      "progress": -10,
+      "progress": -9,
       "status": "STANDBY",
       "score": 45,
       "signal": "分析済",
