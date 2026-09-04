@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-04T08:03:36.794740+09:00",
+  "updated": "2026-09-04T16:48:35.481741+09:00",
   "model": "Pelosi Eye - Policy × Innovation",
   "stocks": [
     {
       "code": "TSLA",
       "name": "Tesla",
-      "price": 376.36,
+      "price": 376.37,
       "start_price": 347.16,
       "goal_price": 473.89,
       "progress": 23,
