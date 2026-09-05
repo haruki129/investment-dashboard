@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T07:51:47.193580+09:00",
+  "updated": "2026-09-05T16:29:58.694042+09:00",
   "model": "Pelosi Eye - Policy × Innovation",
   "stocks": [
     {
@@ -89,7 +89,7 @@
     {
       "code": "AVGO",
       "name": "Broadcom",
-      "price": 357.89,
+      "price": 357.9,
       "start_price": 378.32,
       "goal_price": 469.51,
       "progress": -22,
@@ -174,9 +174,9 @@
       "code": "GOOGL",
       "name": "Alphabet",
       "price": 338.46,
-      "start_price": 343.61,
-      "goal_price": 387.95,
-      "progress": -12,
+      "start_price": 343.4,
+      "goal_price": 387.7,
+      "progress": -11,
       "status": "STANDBY",
       "score": 30,
       "signal": "分析済",
