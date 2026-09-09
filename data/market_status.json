@@ -1,41 +1,41 @@
 {
-  "timestamp": "2026-09-09T22:32:58.844076+09:00",
-  "overall_score": 59,
+  "timestamp": "2026-09-10T03:22:22.458396+09:00",
+  "overall_score": 58,
   "fundamental": 17,
-  "technical": 18,
+  "technical": 17,
   "sentiment": 14,
   "macro": 10,
   "indices": [
     {
       "name": "S&P500",
-      "value": 7648.69,
-      "change": -0.32
+      "value": 7642.29,
+      "change": -0.41
     },
     {
       "name": "NASDAQ",
-      "value": 26291.24,
-      "change": -0.49
+      "value": 26256.54,
+      "change": -0.62
     },
     {
       "name": "日経平均",
-      "value": 65142.78,
-      "change": -0.19
+      "value": 65269.33,
+      "change": -1.7
     },
     {
       "name": "VIX",
-      "value": 16.17,
-      "change": 2.86
+      "value": 16.23,
+      "change": 3.24
     },
     {
       "name": "ドル円",
-      "value": 153.33,
-      "change": -0.34
+      "value": 153.45,
+      "change": -0.26
     }
   ],
   "actions": [
     {
       "priority": "mid",
-      "text": "⚖️ 中立環境（59点）。ポジションは資金の5-10%に抑制"
+      "text": "⚖️ 中立環境（58点）。ポジションは資金の5-10%に抑制"
     },
     {
       "priority": "mid",
