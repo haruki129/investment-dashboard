@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T07:59:18.065383+09:00",
+  "updated": "2026-09-11T16:53:07.458814+09:00",
   "model": "Pelosi Eye - Policy × Innovation",
   "stocks": [
     {
@@ -90,7 +90,7 @@
       "code": "NVDA",
       "name": "NVIDIA",
       "price": 218.36,
-      "start_price": 220.51,
+      "start_price": 220.28,
       "goal_price": 262.03,
       "progress": -5,
       "status": "STANDBY",
