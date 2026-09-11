@@ -1,14 +1,14 @@
 {
-  "updated": "2026-09-12T03:15:10.639380+09:00",
+  "updated": "2026-09-12T08:03:36.124050+09:00",
   "model": "Pelosi Eye - Policy × Innovation",
   "stocks": [
     {
       "code": "AAPL",
       "name": "Apple",
-      "price": 332.78,
-      "start_price": 316.65,
-      "goal_price": 399.34,
-      "progress": 20,
+      "price": 332.27,
+      "start_price": 316.63,
+      "goal_price": 398.72,
+      "progress": 19,
       "status": "RUNNING",
       "score": 65,
       "signal": "分析済",
@@ -26,10 +26,10 @@
     {
       "code": "TSLA",
       "name": "Tesla",
-      "price": 365.2,
-      "start_price": 355.12,
+      "price": 365.44,
+      "start_price": 355.13,
       "goal_price": 473.89,
-      "progress": 8,
+      "progress": 9,
       "status": "RUNNING",
       "score": 60,
       "signal": "分析済",
@@ -47,8 +47,8 @@
     {
       "code": "MSFT",
       "name": "Microsoft",
-      "price": 495.73,
-      "start_price": 494.26,
+      "price": 495.63,
+      "start_price": 494.25,
       "goal_price": 521.74,
       "progress": 5,
       "status": "RUNNING",
@@ -68,10 +68,10 @@
     {
       "code": "V",
       "name": "Visa",
-      "price": 371.21,
-      "start_price": 373.0,
-      "goal_price": 445.45,
-      "progress": -2,
+      "price": 370.45,
+      "start_price": 372.96,
+      "goal_price": 444.54,
+      "progress": -4,
       "status": "STANDBY",
       "score": 50,
       "signal": "分析済",
@@ -89,10 +89,10 @@
     {
       "code": "NVDA",
       "name": "NVIDIA",
-      "price": 219.19,
-      "start_price": 219.99,
-      "goal_price": 263.03,
-      "progress": -2,
+      "price": 218.29,
+      "start_price": 219.94,
+      "goal_price": 261.95,
+      "progress": -4,
       "status": "STANDBY",
       "score": 40,
       "signal": "分析済",
@@ -110,10 +110,10 @@
     {
       "code": "GOOGL",
       "name": "Alphabet",
-      "price": 339.49,
-      "start_price": 340.94,
+      "price": 338.5,
+      "start_price": 340.89,
       "goal_price": 387.7,
-      "progress": -3,
+      "progress": -5,
       "status": "STANDBY",
       "score": 40,
       "signal": "分析済",
@@ -129,12 +129,33 @@
       ]
     },
     {
+      "code": "CRWD",
+      "name": "CrowdStrike",
+      "price": 206.74,
+      "start_price": 207.51,
+      "goal_price": 222.19,
+      "progress": -5,
+      "status": "STANDBY",
+      "score": 40,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "サイバー",
+          "type": "hot"
+        },
+        {
+          "label": "政府調達",
+          "type": "policy"
+        }
+      ]
+    },
+    {
       "code": "AMZN",
       "name": "Amazon",
-      "price": 256.55,
-      "start_price": 258.95,
+      "price": 256.78,
+      "start_price": 258.96,
       "goal_price": 272.84,
-      "progress": -17,
+      "progress": -16,
       "status": "STANDBY",
       "score": 40,
       "signal": "分析済",
@@ -152,10 +173,10 @@
     {
       "code": "AVGO",
       "name": "Broadcom",
-      "price": 365.12,
-      "start_price": 367.65,
+      "price": 361.99,
+      "start_price": 367.49,
       "goal_price": 469.51,
-      "progress": -2,
+      "progress": -5,
       "status": "STANDBY",
       "score": 35,
       "signal": "分析済",
@@ -173,10 +194,10 @@
     {
       "code": "PANW",
       "name": "Palo Alto Networks",
-      "price": 329.46,
-      "start_price": 353.19,
+      "price": 330.65,
+      "start_price": 353.25,
       "goal_price": 378.94,
-      "progress": -92,
+      "progress": -88,
       "status": "STANDBY",
       "score": 30,
       "signal": "分析済",
@@ -187,27 +208,6 @@
         },
         {
           "label": "防衛予算",
-          "type": "policy"
-        }
-      ]
-    },
-    {
-      "code": "CRWD",
-      "name": "CrowdStrike",
-      "price": 205.5,
-      "start_price": 207.45,
-      "goal_price": 222.19,
-      "progress": -13,
-      "status": "STANDBY",
-      "score": 30,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "サイバー",
-          "type": "hot"
-        },
-        {
-          "label": "政府調達",
           "type": "policy"
         }
       ]
