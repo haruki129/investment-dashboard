@@ -1,14 +1,14 @@
 {
-  "updated": "2026-09-18T03:51:42.982662+09:00",
+  "updated": "2026-09-18T08:26:24.532163+09:00",
   "model": "Pelosi Eye - Policy × Innovation",
   "stocks": [
     {
       "code": "CRWD",
       "name": "CrowdStrike",
-      "price": 247.29,
-      "start_price": 213.57,
-      "goal_price": 296.75,
-      "progress": 41,
+      "price": 245.7,
+      "start_price": 213.49,
+      "goal_price": 294.84,
+      "progress": 40,
       "status": "RUNNING",
       "score": 80,
       "signal": "分析済",
@@ -24,12 +24,33 @@
       ]
     },
     {
+      "code": "PANW",
+      "name": "Palo Alto Networks",
+      "price": 375.06,
+      "start_price": 353.54,
+      "goal_price": 450.07,
+      "progress": 22,
+      "status": "RUNNING",
+      "score": 65,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "サイバー",
+          "type": "hot"
+        },
+        {
+          "label": "防衛予算",
+          "type": "policy"
+        }
+      ]
+    },
+    {
       "code": "AAPL",
       "name": "Apple",
-      "price": 336.33,
-      "start_price": 321.36,
-      "goal_price": 403.6,
-      "progress": 18,
+      "price": 337.0,
+      "start_price": 321.4,
+      "goal_price": 404.4,
+      "progress": 19,
       "status": "RUNNING",
       "score": 60,
       "signal": "分析済",
@@ -47,8 +68,8 @@
     {
       "code": "TSLA",
       "name": "Tesla",
-      "price": 366.43,
-      "start_price": 358.65,
+      "price": 366.2,
+      "start_price": 358.64,
       "goal_price": 473.89,
       "progress": 7,
       "status": "RUNNING",
@@ -66,32 +87,11 @@
       ]
     },
     {
-      "code": "PANW",
-      "name": "Palo Alto Networks",
-      "price": 375.77,
-      "start_price": 353.58,
-      "goal_price": 450.92,
-      "progress": 23,
-      "status": "RUNNING",
-      "score": 60,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "サイバー",
-          "type": "hot"
-        },
-        {
-          "label": "防衛予算",
-          "type": "policy"
-        }
-      ]
-    },
-    {
       "code": "NVDA",
       "name": "NVIDIA",
-      "price": 219.49,
+      "price": 219.34,
       "start_price": 218.44,
-      "goal_price": 263.39,
+      "goal_price": 263.21,
       "progress": 2,
       "status": "RUNNING",
       "score": 50,
@@ -110,11 +110,11 @@
     {
       "code": "MSFT",
       "name": "Microsoft",
-      "price": 495.21,
-      "start_price": 496.75,
-      "goal_price": 521.74,
-      "progress": -6,
-      "status": "STANDBY",
+      "price": 497.75,
+      "start_price": 496.88,
+      "goal_price": 597.3,
+      "progress": 1,
+      "status": "RUNNING",
       "score": 50,
       "signal": "分析済",
       "tags": [
@@ -131,10 +131,10 @@
     {
       "code": "GOOGL",
       "name": "Alphabet",
-      "price": 346.23,
-      "start_price": 341.17,
+      "price": 347.33,
+      "start_price": 341.22,
       "goal_price": 387.7,
-      "progress": 11,
+      "progress": 13,
       "status": "RUNNING",
       "score": 50,
       "signal": "分析済",
@@ -152,10 +152,10 @@
     {
       "code": "V",
       "name": "Visa",
-      "price": 371.42,
-      "start_price": 374.98,
-      "goal_price": 445.7,
-      "progress": -5,
+      "price": 369.93,
+      "start_price": 374.91,
+      "goal_price": 443.92,
+      "progress": -7,
       "status": "STANDBY",
       "score": 50,
       "signal": "分析済",
@@ -173,12 +173,12 @@
     {
       "code": "AVGO",
       "name": "Broadcom",
-      "price": 348.09,
-      "start_price": 359.68,
+      "price": 347.3,
+      "start_price": 359.64,
       "goal_price": 469.51,
       "progress": -11,
       "status": "STANDBY",
-      "score": 40,
+      "score": 45,
       "signal": "分析済",
       "tags": [
         {
@@ -194,10 +194,10 @@
     {
       "code": "AMZN",
       "name": "Amazon",
-      "price": 251.73,
-      "start_price": 256.48,
+      "price": 251.19,
+      "start_price": 256.45,
       "goal_price": 272.84,
-      "progress": -29,
+      "progress": -32,
       "status": "STANDBY",
       "score": 40,
       "signal": "分析済",
