@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T08:54:45.709322+09:00",
+  "updated": "2026-09-22T17:20:36.199811+09:00",
   "model": "Pelosi Eye - Policy × Innovation",
   "stocks": [
     {
@@ -111,11 +111,11 @@
       "code": "AVGO",
       "name": "Broadcom",
       "price": 362.66,
-      "start_price": 359.03,
-      "goal_price": 469.51,
-      "progress": 3,
+      "start_price": 358.41,
+      "goal_price": 468.65,
+      "progress": 4,
       "status": "RUNNING",
-      "score": 55,
+      "score": 60,
       "signal": "分析済",
       "tags": [
         {
