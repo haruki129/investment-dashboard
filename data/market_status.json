@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-09-23T23:07:42.040794+09:00",
-  "overall_score": 70,
-  "fundamental": 20,
+  "timestamp": "2026-09-24T03:54:32.519526+09:00",
+  "overall_score": 68,
+  "fundamental": 22,
   "technical": 22,
-  "sentiment": 18,
+  "sentiment": 14,
   "macro": 10,
   "indices": [
     {
       "name": "S&P500",
-      "value": 7732.06,
-      "change": -0.42
+      "value": 7708.55,
+      "change": -0.72
     },
     {
       "name": "NASDAQ",
-      "value": 27037.57,
-      "change": -0.31
+      "value": 26946.06,
+      "change": -0.65
     },
     {
       "name": "日経平均",
@@ -23,23 +23,23 @@
     },
     {
       "name": "VIX",
-      "value": 14.38,
-      "change": -3.3
+      "value": 15.09,
+      "change": 1.48
     },
     {
       "name": "ドル円",
-      "value": 158.15,
-      "change": 0.5
+      "value": 158.27,
+      "change": 0.57
     }
   ],
   "actions": [
     {
       "priority": "high",
-      "text": "🎯 買い検討環境（70点）。ペロシTOP5とQレシオ高い清原TOP3を優先チェック"
+      "text": "🎯 買い検討環境（68点）。ペロシTOP5とQレシオ高い清原TOP3を優先チェック"
     },
     {
       "priority": "mid",
-      "text": "🇺🇸 米国株TOP：CrowdStrike（CRWD）スコア75点"
+      "text": "🇺🇸 米国株TOP：CrowdStrike（CRWD）スコア80点"
     },
     {
       "priority": "mid",
