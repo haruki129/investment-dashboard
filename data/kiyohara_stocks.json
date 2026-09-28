@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T18:29:49.227654+09:00",
+  "updated": "2026-09-29T06:07:18.947608+09:00",
   "model": "Kiyohara Eye - Small Cap Growth × Q Ratio",
   "note": "時価総額500億円以下／ROE15%以上／Qレシオ1.0以上",
   "stocks": [
@@ -48,9 +48,9 @@
     {
       "code": "7380.T",
       "name": "十六FG",
-      "price": 2876.0,
-      "start_price": 2659.55,
-      "goal_price": 3451.2,
+      "price": 2871.0,
+      "start_price": 2654.93,
+      "goal_price": 3445.2,
       "progress": 27,
       "status": "RUNNING",
       "score": 43,
