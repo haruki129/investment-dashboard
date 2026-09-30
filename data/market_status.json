@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-09-30T04:51:15.683888+09:00",
-  "overall_score": 62,
-  "fundamental": 19,
+  "timestamp": "2026-09-30T09:07:56.220187+09:00",
+  "overall_score": 52,
+  "fundamental": 9,
   "technical": 18,
   "sentiment": 14,
   "macro": 11,
   "indices": [
     {
       "name": "S&P500",
-      "value": 7673.88,
-      "change": -0.13
+      "value": 7670.84,
+      "change": -0.17
     },
     {
       "name": "NASDAQ",
-      "value": 26819.12,
-      "change": -0.0
+      "value": 26797.54,
+      "change": -0.09
     },
     {
       "name": "日経平均",
@@ -23,23 +23,23 @@
     },
     {
       "name": "VIX",
-      "value": 16.05,
-      "change": -0.12
+      "value": 16.04,
+      "change": -0.19
     },
     {
       "name": "ドル円",
-      "value": 157.3,
-      "change": -0.11
+      "value": 157.38,
+      "change": 0.01
     }
   ],
   "actions": [
     {
-      "priority": "high",
-      "text": "🎯 買い検討環境（62点）。ペロシTOP5とQレシオ高い清原TOP3を優先チェック"
+      "priority": "mid",
+      "text": "⚖️ 中立環境（52点）。ポジションは資金の5-10%に抑制"
     },
     {
       "priority": "mid",
-      "text": "🇺🇸 米国株TOP：CrowdStrike（CRWD）スコア70点"
+      "text": "🇺🇸 米国株TOP：NVIDIA（NVDA）スコア30点"
     },
     {
       "priority": "mid",
