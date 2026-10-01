@@ -1,45 +1,45 @@
 {
-  "timestamp": "2026-10-01T04:53:00.914843+09:00",
-  "overall_score": 66,
-  "fundamental": 19,
-  "technical": 22,
+  "timestamp": "2026-10-01T09:25:00.403118+09:00",
+  "overall_score": 58,
+  "fundamental": 9,
+  "technical": 24,
   "sentiment": 14,
   "macro": 11,
   "indices": [
     {
       "name": "S&P500",
-      "value": 7675.77,
-      "change": 0.06
+      "value": 7651.54,
+      "change": -0.25
     },
     {
       "name": "NASDAQ",
-      "value": 26952.85,
-      "change": 0.58
+      "value": 26861.06,
+      "change": 0.24
     },
     {
       "name": "日経平均",
-      "value": 65481.27,
-      "change": -0.6
+      "value": 67347.91,
+      "change": 2.85
     },
     {
       "name": "VIX",
-      "value": 16.12,
-      "change": 0.5
+      "value": 16.34,
+      "change": 1.87
     },
     {
       "name": "ドル円",
-      "value": 157.36,
-      "change": -0.0
+      "value": 157.7,
+      "change": 0.19
     }
   ],
   "actions": [
     {
-      "priority": "high",
-      "text": "🎯 買い検討環境（66点）。ペロシTOP5とQレシオ高い清原TOP3を優先チェック"
+      "priority": "mid",
+      "text": "⚖️ 中立環境（58点）。ポジションは資金の5-10%に抑制"
     },
     {
       "priority": "mid",
-      "text": "🇺🇸 米国株TOP：Palo Alto Networks（PANW）スコア70点"
+      "text": "🇺🇸 米国株TOP：NVIDIA（NVDA）スコア30点"
     },
     {
       "priority": "mid",
