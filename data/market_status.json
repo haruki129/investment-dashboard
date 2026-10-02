@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-10-02T05:11:43.084069+09:00",
-  "overall_score": 70,
-  "fundamental": 19,
+  "timestamp": "2026-10-02T09:35:33.779652+09:00",
+  "overall_score": 60,
+  "fundamental": 9,
   "technical": 26,
   "sentiment": 14,
   "macro": 11,
@@ -18,28 +18,28 @@
     },
     {
       "name": "日経平均",
-      "value": 66753.72,
-      "change": 1.94
+      "value": 68658.91,
+      "change": 2.85
     },
     {
       "name": "VIX",
-      "value": 16.38,
-      "change": 0.24
+      "value": 16.39,
+      "change": 0.31
     },
     {
       "name": "ドル円",
-      "value": 158.09,
-      "change": 0.44
+      "value": 157.96,
+      "change": 0.26
     }
   ],
   "actions": [
     {
       "priority": "high",
-      "text": "🎯 買い検討環境（70点）。ペロシTOP5とQレシオ高い清原TOP3を優先チェック"
+      "text": "🎯 買い検討環境（60点）。ペロシTOP5とQレシオ高い清原TOP3を優先チェック"
     },
     {
       "priority": "mid",
-      "text": "🇺🇸 米国株TOP：Palo Alto Networks（PANW）スコア70点"
+      "text": "🇺🇸 米国株TOP：NVIDIA（NVDA）スコア30点"
     },
     {
       "priority": "mid",
