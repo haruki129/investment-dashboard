@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04T08:35:27.279325+09:00",
+  "updated": "2026-10-04T18:28:10.097716+09:00",
   "model": "Kiyohara Eye - Small Cap Growth × Q Ratio",
   "note": "時価総額500億円以下／ROE15%以上／Qレシオ1.0以上",
   "stocks": [
@@ -88,6 +88,27 @@
       ]
     },
     {
+      "code": "4011.T",
+      "name": "ヘッドウォータース",
+      "price": 2294.0,
+      "start_price": 2375.85,
+      "goal_price": 3771.5,
+      "progress": -6,
+      "status": "STANDBY",
+      "score": 30,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "AI",
+          "type": "hot"
+        },
+        {
+          "label": "小型",
+          "type": "policy"
+        }
+      ]
+    },
+    {
       "code": "4180.T",
       "name": "Appier Group",
       "price": 1404.0,
@@ -147,27 +168,6 @@
         {
           "label": "成長",
           "type": "growth"
-        }
-      ]
-    },
-    {
-      "code": "4011.T",
-      "name": "ヘッドウォータース",
-      "price": 0,
-      "start_price": null,
-      "goal_price": null,
-      "progress": 0,
-      "status": "RUNNING",
-      "score": 0,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "AI",
-          "type": "hot"
-        },
-        {
-          "label": "小型",
-          "type": "policy"
         }
       ]
     },
