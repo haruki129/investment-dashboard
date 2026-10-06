@@ -1,41 +1,41 @@
 {
-  "timestamp": "2026-10-06T18:52:32.267114+09:00",
-  "overall_score": 73,
+  "timestamp": "2026-10-07T05:03:22.454845+09:00",
+  "overall_score": 60,
   "fundamental": 20,
-  "technical": 28,
+  "technical": 26,
   "sentiment": 14,
-  "macro": 11,
+  "macro": 0,
   "indices": [
     {
       "name": "S&P500",
-      "value": 7773.95,
-      "change": 0.66
+      "value": 7818.94,
+      "change": 0.58
     },
     {
       "name": "NASDAQ",
-      "value": 27477.31,
-      "change": 1.05
+      "value": 27599.79,
+      "change": 0.45
     },
     {
       "name": "日経平均",
-      "value": 70683.98,
-      "change": 1.05
+      "value": 69946.86,
+      "change": 2.4
     },
     {
       "name": "VIX",
-      "value": 15.41,
-      "change": -0.71
+      "value": 15.03,
+      "change": -3.16
     },
     {
       "name": "ドル円",
-      "value": 158.22,
-      "change": 0.31
+      "value": 158.15,
+      "change": 0.27
     }
   ],
   "actions": [
     {
       "priority": "high",
-      "text": "🎯 買い検討環境（73点）。ペロシTOP5とQレシオ高い清原TOP3を優先チェック"
+      "text": "🎯 買い検討環境（60点）。ペロシTOP5とQレシオ高い清原TOP3を優先チェック"
     },
     {
       "priority": "mid",
@@ -43,7 +43,7 @@
     },
     {
       "priority": "mid",
-      "text": "🇯🇵 日本株TOP：シーユーシー（9158.T）スコア63点"
+      "text": "🇯🇵 日本株TOP：ヘッドウォータース（4011.T）スコア0点"
     }
   ]
 }
