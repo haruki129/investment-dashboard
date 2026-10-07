@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-07T18:59:01.322237+09:00",
+  "updated": "2026-10-08T05:28:53.876954+09:00",
   "model": "Pelosi Eye - Policy × Innovation",
   "stocks": [
     {
       "code": "PANW",
       "name": "Palo Alto Networks",
-      "price": 419.91,
-      "start_price": 378.79,
-      "goal_price": 503.89,
-      "progress": 33,
+      "price": 405.57,
+      "start_price": 382.31,
+      "goal_price": 486.68,
+      "progress": 22,
       "status": "RUNNING",
       "score": 70,
       "signal": "分析済",
@@ -26,10 +26,10 @@
     {
       "code": "CRWD",
       "name": "CrowdStrike",
-      "price": 278.86,
-      "start_price": 248.7,
-      "goal_price": 334.63,
-      "progress": 35,
+      "price": 265.44,
+      "start_price": 251.59,
+      "goal_price": 318.53,
+      "progress": 21,
       "status": "RUNNING",
       "score": 70,
       "signal": "分析済",
@@ -47,10 +47,10 @@
     {
       "code": "NVDA",
       "name": "NVIDIA",
-      "price": 239.24,
-      "start_price": 224.88,
-      "goal_price": 287.09,
-      "progress": 23,
+      "price": 237.47,
+      "start_price": 225.58,
+      "goal_price": 284.96,
+      "progress": 20,
       "status": "RUNNING",
       "score": 60,
       "signal": "分析済",
@@ -68,10 +68,10 @@
     {
       "code": "MSFT",
       "name": "Microsoft",
-      "price": 529.3,
-      "start_price": 504.71,
-      "goal_price": 635.16,
-      "progress": 19,
+      "price": 529.76,
+      "start_price": 506.62,
+      "goal_price": 635.71,
+      "progress": 18,
       "status": "RUNNING",
       "score": 60,
       "signal": "分析済",
@@ -89,10 +89,10 @@
     {
       "code": "GOOGL",
       "name": "Alphabet",
-      "price": 347.68,
-      "start_price": 343.49,
+      "price": 350.5,
+      "start_price": 344.48,
       "goal_price": 387.7,
-      "progress": 9,
+      "progress": 14,
       "status": "RUNNING",
       "score": 60,
       "signal": "分析済",
@@ -108,31 +108,10 @@
       ]
     },
     {
-      "code": "AAPL",
-      "name": "Apple",
-      "price": 333.63,
-      "start_price": 333.41,
-      "goal_price": 400.36,
-      "progress": 0,
-      "status": "RUNNING",
-      "score": 60,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "AI",
-          "type": "hot"
-        },
-        {
-          "label": "ブランド",
-          "type": "growth"
-        }
-      ]
-    },
-    {
       "code": "AVGO",
       "name": "Broadcom",
-      "price": 375.81,
-      "start_price": 354.44,
+      "price": 376.51,
+      "start_price": 355.08,
       "goal_price": 468.65,
       "progress": 19,
       "status": "RUNNING",
@@ -150,12 +129,33 @@
       ]
     },
     {
+      "code": "AAPL",
+      "name": "Apple",
+      "price": 336.67,
+      "start_price": 334.48,
+      "goal_price": 404.0,
+      "progress": 3,
+      "status": "RUNNING",
+      "score": 50,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "AI",
+          "type": "hot"
+        },
+        {
+          "label": "ブランド",
+          "type": "growth"
+        }
+      ]
+    },
+    {
       "code": "TSLA",
       "name": "Tesla",
-      "price": 380.68,
-      "start_price": 366.72,
+      "price": 377.81,
+      "start_price": 367.22,
       "goal_price": 473.89,
-      "progress": 13,
+      "progress": 10,
       "status": "RUNNING",
       "score": 50,
       "signal": "分析済",
@@ -173,10 +173,10 @@
     {
       "code": "V",
       "name": "Visa",
-      "price": 370.64,
-      "start_price": 367.39,
-      "goal_price": 444.77,
-      "progress": 4,
+      "price": 372.1,
+      "start_price": 367.62,
+      "goal_price": 446.52,
+      "progress": 6,
       "status": "RUNNING",
       "score": 50,
       "signal": "分析済",
@@ -194,10 +194,10 @@
     {
       "code": "AMZN",
       "name": "Amazon",
-      "price": 256.29,
-      "start_price": 251.25,
-      "goal_price": 272.84,
-      "progress": 23,
+      "price": 259.92,
+      "start_price": 251.63,
+      "goal_price": 311.9,
+      "progress": 14,
       "status": "RUNNING",
       "score": 50,
       "signal": "分析済",
