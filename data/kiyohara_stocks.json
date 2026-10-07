@@ -1,17 +1,101 @@
 {
-  "updated": "2026-10-07T05:03:22.454845+09:00",
+  "updated": "2026-10-07T09:27:35.189286+09:00",
   "model": "Kiyohara Eye - Small Cap Growth × Q Ratio",
   "note": "時価総額500億円以下／ROE15%以上／Qレシオ1.0以上",
   "stocks": [
     {
+      "code": "9158.T",
+      "name": "シーユーシー",
+      "price": 772.0,
+      "start_price": 775.55,
+      "goal_price": 1250.2,
+      "progress": -1,
+      "status": "STANDBY",
+      "score": 63,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "医療",
+          "type": "hot"
+        },
+        {
+          "label": "M&A",
+          "type": "growth"
+        }
+      ]
+    },
+    {
+      "code": "5132.T",
+      "name": "pluszero",
+      "price": 1951.0,
+      "start_price": 1929.9,
+      "goal_price": 4270.25,
+      "progress": 1,
+      "status": "RUNNING",
+      "score": 60,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "AI",
+          "type": "hot"
+        },
+        {
+          "label": "AEI",
+          "type": "growth"
+        }
+      ]
+    },
+    {
+      "code": "7380.T",
+      "name": "十六FG",
+      "price": 2917.0,
+      "start_price": 2733.23,
+      "goal_price": 3500.4,
+      "progress": 24,
+      "status": "RUNNING",
+      "score": 43,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "金融",
+          "type": "policy"
+        },
+        {
+          "label": "割安",
+          "type": "growth"
+        }
+      ]
+    },
+    {
+      "code": "4592.T",
+      "name": "サンバイオ",
+      "price": 962.0,
+      "start_price": 939.15,
+      "goal_price": 3790.5,
+      "progress": 1,
+      "status": "RUNNING",
+      "score": 40,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "バイオ",
+          "type": "hot"
+        },
+        {
+          "label": "承認",
+          "type": "policy"
+        }
+      ]
+    },
+    {
       "code": "4011.T",
       "name": "ヘッドウォータース",
       "price": 2460.0,
-      "start_price": 2381.0,
-      "goal_price": 3771.5,
+      "start_price": 2373.85,
+      "goal_price": 3757.25,
       "progress": 6,
       "status": "RUNNING",
-      "score": 0,
+      "score": 30,
       "signal": "分析済",
       "tags": [
         {
@@ -25,14 +109,14 @@
       ]
     },
     {
-      "code": "5132.T",
-      "name": "pluszero",
-      "price": 1960.0,
-      "start_price": 1937.6,
-      "goal_price": 4270.25,
-      "progress": 1,
-      "status": "RUNNING",
-      "score": 0,
+      "code": "4180.T",
+      "name": "Appier Group",
+      "price": 1410.0,
+      "start_price": 1447.5,
+      "goal_price": 1692.0,
+      "progress": -15,
+      "status": "STANDBY",
+      "score": 30,
       "signal": "分析済",
       "tags": [
         {
@@ -40,7 +124,49 @@
           "type": "hot"
         },
         {
-          "label": "AEI",
+          "label": "海外",
+          "type": "growth"
+        }
+      ]
+    },
+    {
+      "code": "6920.T",
+      "name": "レーザーテック",
+      "price": 46330.0,
+      "start_price": 39563.5,
+      "goal_price": 55431.74,
+      "progress": 43,
+      "status": "RUNNING",
+      "score": 30,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "半導体",
+          "type": "hot"
+        },
+        {
+          "label": "独占",
+          "type": "growth"
+        }
+      ]
+    },
+    {
+      "code": "4375.T",
+      "name": "セーフィー",
+      "price": 669.0,
+      "start_price": 665.05,
+      "goal_price": 926.25,
+      "progress": 2,
+      "status": "RUNNING",
+      "score": 22,
+      "signal": "分析済",
+      "tags": [
+        {
+          "label": "SaaS",
+          "type": "hot"
+        },
+        {
+          "label": "成長",
           "type": "growth"
         }
       ]
@@ -67,90 +193,6 @@
       ]
     },
     {
-      "code": "9158.T",
-      "name": "シーユーシー",
-      "price": 774.0,
-      "start_price": 774.85,
-      "goal_price": 1250.2,
-      "progress": 0,
-      "status": "RUNNING",
-      "score": 0,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "医療",
-          "type": "hot"
-        },
-        {
-          "label": "M&A",
-          "type": "growth"
-        }
-      ]
-    },
-    {
-      "code": "4180.T",
-      "name": "Appier Group",
-      "price": 1402.0,
-      "start_price": 1452.6,
-      "goal_price": 1473.3,
-      "progress": -100,
-      "status": "STANDBY",
-      "score": 0,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "AI",
-          "type": "hot"
-        },
-        {
-          "label": "海外",
-          "type": "growth"
-        }
-      ]
-    },
-    {
-      "code": "4592.T",
-      "name": "サンバイオ",
-      "price": 1002.0,
-      "start_price": 937.3,
-      "goal_price": 3790.5,
-      "progress": 2,
-      "status": "RUNNING",
-      "score": 0,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "バイオ",
-          "type": "hot"
-        },
-        {
-          "label": "承認",
-          "type": "policy"
-        }
-      ]
-    },
-    {
-      "code": "6920.T",
-      "name": "レーザーテック",
-      "price": 46550.0,
-      "start_price": 38906.0,
-      "goal_price": 55431.74,
-      "progress": 46,
-      "status": "RUNNING",
-      "score": 0,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "半導体",
-          "type": "hot"
-        },
-        {
-          "label": "独占",
-          "type": "growth"
-        }
-      ]
-    },
-    {
       "code": "3681.T",
       "name": "ブイキューブ",
       "price": 0,
@@ -163,48 +205,6 @@
       "tags": [
         {
           "label": "DX",
-          "type": "policy"
-        },
-        {
-          "label": "割安",
-          "type": "growth"
-        }
-      ]
-    },
-    {
-      "code": "4375.T",
-      "name": "セーフィー",
-      "price": 675.0,
-      "start_price": 665.5,
-      "goal_price": 926.25,
-      "progress": 4,
-      "status": "RUNNING",
-      "score": 0,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "SaaS",
-          "type": "hot"
-        },
-        {
-          "label": "成長",
-          "type": "growth"
-        }
-      ]
-    },
-    {
-      "code": "7380.T",
-      "name": "十六FG",
-      "price": 2936.0,
-      "start_price": 2719.65,
-      "goal_price": 3523.2,
-      "progress": 27,
-      "status": "RUNNING",
-      "score": 0,
-      "signal": "分析済",
-      "tags": [
-        {
-          "label": "金融",
           "type": "policy"
         },
         {

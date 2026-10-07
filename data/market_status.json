@@ -1,49 +1,49 @@
 {
-  "timestamp": "2026-10-07T05:03:22.454845+09:00",
-  "overall_score": 60,
-  "fundamental": 20,
+  "timestamp": "2026-10-07T09:27:35.189286+09:00",
+  "overall_score": 61,
+  "fundamental": 10,
   "technical": 26,
   "sentiment": 14,
-  "macro": 0,
+  "macro": 11,
   "indices": [
     {
       "name": "S&P500",
-      "value": 7818.94,
+      "value": 7818.93,
       "change": 0.58
     },
     {
       "name": "NASDAQ",
-      "value": 27599.79,
+      "value": 27599.89,
       "change": 0.45
     },
     {
       "name": "日経平均",
-      "value": 69946.86,
-      "change": 2.4
+      "value": 70671.38,
+      "change": 1.04
     },
     {
       "name": "VIX",
-      "value": 15.03,
-      "change": -3.16
+      "value": 15.01,
+      "change": -3.29
     },
     {
       "name": "ドル円",
-      "value": 158.15,
-      "change": 0.27
+      "value": 158.44,
+      "change": 0.3
     }
   ],
   "actions": [
     {
       "priority": "high",
-      "text": "🎯 買い検討環境（60点）。ペロシTOP5とQレシオ高い清原TOP3を優先チェック"
+      "text": "🎯 買い検討環境（61点）。ペロシTOP5とQレシオ高い清原TOP3を優先チェック"
     },
     {
       "priority": "mid",
-      "text": "🇺🇸 米国株TOP：Palo Alto Networks（PANW）スコア70点"
+      "text": "🇺🇸 米国株TOP：Broadcom（AVGO）スコア35点"
     },
     {
       "priority": "mid",
-      "text": "🇯🇵 日本株TOP：ヘッドウォータース（4011.T）スコア0点"
+      "text": "🇯🇵 日本株TOP：シーユーシー（9158.T）スコア63点"
     }
   ]
 }
