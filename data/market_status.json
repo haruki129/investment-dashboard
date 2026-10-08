@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-10-08T09:47:54.204252+09:00",
-  "overall_score": 52,
-  "fundamental": 10,
+  "timestamp": "2026-10-08T19:12:05.317862+09:00",
+  "overall_score": 62,
+  "fundamental": 20,
   "technical": 17,
   "sentiment": 14,
   "macro": 11,
@@ -18,28 +18,28 @@
     },
     {
       "name": "日経平均",
-      "value": 69395.76,
-      "change": -1.82
+      "value": 69042.11,
+      "change": -1.42
     },
     {
       "name": "VIX",
-      "value": 15.08,
-      "change": 0.47
+      "value": 15.72,
+      "change": 4.24
     },
     {
       "name": "ドル円",
-      "value": 157.7,
-      "change": -0.37
+      "value": 158.24,
+      "change": -0.03
     }
   ],
   "actions": [
     {
-      "priority": "mid",
-      "text": "⚖️ 中立環境（52点）。ポジションは資金の5-10%に抑制"
+      "priority": "high",
+      "text": "🎯 買い検討環境（62点）。ペロシTOP5とQレシオ高い清原TOP3を優先チェック"
     },
     {
       "priority": "mid",
-      "text": "🇺🇸 米国株TOP：Broadcom（AVGO）スコア35点"
+      "text": "🇺🇸 米国株TOP：Palo Alto Networks（PANW）スコア70点"
     },
     {
       "priority": "mid",
