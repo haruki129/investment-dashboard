@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-10-14T05:32:41.577988+09:00",
-  "overall_score": 62,
-  "fundamental": 19,
+  "timestamp": "2026-10-14T09:11:38.342711+09:00",
+  "overall_score": 52,
+  "fundamental": 9,
   "technical": 18,
   "sentiment": 14,
   "macro": 11,
@@ -28,18 +28,18 @@
     },
     {
       "name": "ドル円",
-      "value": 158.32,
-      "change": 0.07
+      "value": 158.31,
+      "change": -0.13
     }
   ],
   "actions": [
     {
-      "priority": "high",
-      "text": "🎯 買い検討環境（62点）。ペロシTOP5とQレシオ高い清原TOP3を優先チェック"
+      "priority": "mid",
+      "text": "⚖️ 中立環境（52点）。ポジションは資金の5-10%に抑制"
     },
     {
       "priority": "mid",
-      "text": "🇺🇸 米国株TOP：Microsoft（MSFT）スコア70点"
+      "text": "🇺🇸 米国株TOP：NVIDIA（NVDA）スコア30点"
     },
     {
       "priority": "mid",
