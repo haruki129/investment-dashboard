@@ -1,45 +1,45 @@
 {
-  "timestamp": "2026-10-16T22:48:07.960204+09:00",
-  "overall_score": 66,
-  "fundamental": 17,
-  "technical": 24,
-  "sentiment": 14,
+  "timestamp": "2026-10-17T03:40:16.169724+09:00",
+  "overall_score": 52,
+  "fundamental": 16,
+  "technical": 15,
+  "sentiment": 10,
   "macro": 11,
   "indices": [
     {
       "name": "S&P500",
-      "value": 7746.16,
-      "change": 0.03
+      "value": 7650.21,
+      "change": -1.21
     },
     {
       "name": "NASDAQ",
-      "value": 26564.84,
-      "change": -0.55
+      "value": 26122.26,
+      "change": -2.21
     },
     {
       "name": "日経平均",
-      "value": 65324.29,
-      "change": 1.39
+      "value": 64425.95,
+      "change": -4.9
     },
     {
       "name": "VIX",
-      "value": 15.84,
-      "change": -3.77
+      "value": 21.25,
+      "change": 29.1
     },
     {
       "name": "ドル円",
-      "value": 157.91,
-      "change": -0.03
+      "value": 158.06,
+      "change": 0.07
     }
   ],
   "actions": [
     {
-      "priority": "high",
-      "text": "🎯 買い検討環境（66点）。ペロシTOP5とQレシオ高い清原TOP3を優先チェック"
+      "priority": "mid",
+      "text": "⚖️ 中立環境（52点）。ポジションは資金の5-10%に抑制"
     },
     {
       "priority": "mid",
-      "text": "🇺🇸 米国株TOP：Microsoft（MSFT）スコア60点"
+      "text": "🇺🇸 米国株TOP：Visa（V）スコア60点"
     },
     {
       "priority": "mid",
