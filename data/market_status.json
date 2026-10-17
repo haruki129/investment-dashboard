@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-17T08:18:46.242639+09:00",
-  "overall_score": 58,
+  "timestamp": "2026-10-17T16:36:10.082551+09:00",
+  "overall_score": 63,
   "fundamental": 18,
-  "technical": 15,
+  "technical": 20,
   "sentiment": 14,
   "macro": 11,
   "indices": [
@@ -18,8 +18,8 @@
     },
     {
       "name": "日経平均",
-      "value": 64425.95,
-      "change": -4.9
+      "value": 65324.29,
+      "change": 1.39
     },
     {
       "name": "VIX",
@@ -34,8 +34,8 @@
   ],
   "actions": [
     {
-      "priority": "mid",
-      "text": "⚖️ 中立環境（58点）。ポジションは資金の5-10%に抑制"
+      "priority": "high",
+      "text": "🎯 買い検討環境（63点）。ペロシTOP5とQレシオ高い清原TOP3を優先チェック"
     },
     {
       "priority": "mid",
