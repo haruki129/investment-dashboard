@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-10-21T17:21:40.304270+09:00",
+  "timestamp": "2026-10-21T23:23:17.838258+09:00",
   "overall_score": 67,
-  "fundamental": 20,
-  "technical": 22,
+  "fundamental": 18,
+  "technical": 24,
   "sentiment": 14,
   "macro": 11,
   "indices": [
     {
       "name": "S&P500",
-      "value": 7712.57,
-      "change": 0.28
+      "value": 7716.75,
+      "change": 0.05
     },
     {
       "name": "NASDAQ",
-      "value": 26424.82,
-      "change": -0.02
+      "value": 26533.74,
+      "change": 0.41
     },
     {
       "name": "日経平均",
@@ -23,13 +23,13 @@
     },
     {
       "name": "VIX",
-      "value": 17.18,
-      "change": -0.75
+      "value": 17.28,
+      "change": -0.17
     },
     {
       "name": "ドル円",
-      "value": 158.14,
-      "change": -0.24
+      "value": 158.08,
+      "change": -0.28
     }
   ],
   "actions": [
@@ -39,7 +39,7 @@
     },
     {
       "priority": "mid",
-      "text": "🇺🇸 米国株TOP：Visa（V）スコア75点"
+      "text": "🇺🇸 米国株TOP：Visa（V）スコア70点"
     },
     {
       "priority": "mid",
