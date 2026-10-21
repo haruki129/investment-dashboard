@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T04:09:27.060472+09:00",
+  "updated": "2026-10-22T08:55:35.723680+09:00",
   "model": "Kiyohara Eye - Small Cap Growth × Q Ratio",
   "note": "時価総額500億円以下／ROE15%以上／Qレシオ1.0以上",
   "stocks": [
@@ -53,7 +53,7 @@
       "goal_price": 2793.0,
       "progress": -100,
       "status": "STANDBY",
-      "score": 43,
+      "score": 53,
       "signal": "分析済",
       "tags": [
         {
