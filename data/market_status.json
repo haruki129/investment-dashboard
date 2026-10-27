@@ -1,45 +1,45 @@
 {
-  "timestamp": "2026-10-27T00:56:45.611713+09:00",
-  "overall_score": 67,
-  "fundamental": 19,
+  "timestamp": "2026-10-27T09:16:04.101486+09:00",
+  "overall_score": 57,
+  "fundamental": 9,
   "technical": 22,
   "sentiment": 14,
   "macro": 12,
   "indices": [
     {
       "name": "S&P500",
-      "value": 7679.62,
-      "change": 0.73
+      "value": 7676.77,
+      "change": 0.7
     },
     {
       "name": "NASDAQ",
-      "value": 26215.04,
-      "change": 1.0
+      "value": 26169.38,
+      "change": 0.82
     },
     {
       "name": "日経平均",
-      "value": 62693.16,
-      "change": -0.34
+      "value": 62435.6,
+      "change": -0.41
     },
     {
       "name": "VIX",
-      "value": 17.82,
-      "change": -8.38
+      "value": 18.39,
+      "change": -5.45
     },
     {
       "name": "ドル円",
-      "value": 157.55,
-      "change": 0.67
+      "value": 157.46,
+      "change": 0.4
     }
   ],
   "actions": [
     {
-      "priority": "high",
-      "text": "🎯 買い検討環境（67点）。ペロシTOP5とQレシオ高い清原TOP3を優先チェック"
+      "priority": "mid",
+      "text": "⚖️ 中立環境（57点）。ポジションは資金の5-10%に抑制"
     },
     {
       "priority": "mid",
-      "text": "🇺🇸 米国株TOP：Tesla（TSLA）スコア70点"
+      "text": "🇺🇸 米国株TOP：NVIDIA（NVDA）スコア30点"
     },
     {
       "priority": "mid",
