@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-10-28T09:18:11.970882+09:00",
-  "overall_score": 63,
-  "fundamental": 9,
+  "timestamp": "2026-10-28T18:24:45.559165+09:00",
+  "overall_score": 73,
+  "fundamental": 19,
   "technical": 28,
   "sentiment": 14,
   "macro": 12,
@@ -18,28 +18,28 @@
     },
     {
       "name": "日経平均",
-      "value": 64065.39,
-      "change": 3.02
+      "value": 63954.19,
+      "change": 1.08
     },
     {
       "name": "VIX",
-      "value": 17.52,
-      "change": -4.73
+      "value": 17.57,
+      "change": 0.29
     },
     {
       "name": "ドル円",
-      "value": 157.91,
-      "change": 0.24
+      "value": 157.79,
+      "change": 0.17
     }
   ],
   "actions": [
     {
       "priority": "high",
-      "text": "🎯 買い検討環境（63点）。ペロシTOP5とQレシオ高い清原TOP3を優先チェック"
+      "text": "🎯 買い検討環境（73点）。ペロシTOP5とQレシオ高い清原TOP3を優先チェック"
     },
     {
       "priority": "mid",
-      "text": "🇺🇸 米国株TOP：NVIDIA（NVDA）スコア30点"
+      "text": "🇺🇸 米国株TOP：Tesla（TSLA）スコア70点"
     },
     {
       "priority": "mid",
