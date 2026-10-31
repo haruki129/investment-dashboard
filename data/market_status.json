@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-10-31T04:52:34.031470+09:00",
-  "overall_score": 59,
-  "fundamental": 18,
+  "timestamp": "2026-10-31T09:31:52.627195+09:00",
+  "overall_score": 57,
+  "fundamental": 12,
   "technical": 20,
-  "sentiment": 10,
+  "sentiment": 14,
   "macro": 11,
   "indices": [
     {
       "name": "S&P500",
-      "value": 7582.24,
-      "change": -1.79
+      "value": 7580.07,
+      "change": -1.82
     },
     {
       "name": "NASDAQ",
-      "value": 25448.31,
-      "change": -2.81
+      "value": 25437.0,
+      "change": -2.86
     },
     {
       "name": "日経平均",
@@ -23,23 +23,23 @@
     },
     {
       "name": "VIX",
-      "value": 20.64,
-      "change": 20.0
+      "value": 19.42,
+      "change": 12.91
     },
     {
       "name": "ドル円",
-      "value": 157.53,
-      "change": -0.19
+      "value": 157.8,
+      "change": -0.02
     }
   ],
   "actions": [
     {
       "priority": "mid",
-      "text": "⚖️ 中立環境（59点）。ポジションは資金の5-10%に抑制"
+      "text": "⚖️ 中立環境（57点）。ポジションは資金の5-10%に抑制"
     },
     {
       "priority": "mid",
-      "text": "🇺🇸 米国株TOP：Visa（V）スコア75点"
+      "text": "🇺🇸 米国株TOP：Alphabet（GOOGL）スコア50点"
     },
     {
       "priority": "mid",
