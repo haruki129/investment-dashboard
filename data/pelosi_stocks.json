@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T06:13:26.556412+09:00",
+  "updated": "2026-11-11T19:29:13.523248+09:00",
   "model": "Pelosi Eye - Policy × Innovation",
   "stocks": [
     {
@@ -27,7 +27,7 @@
       "code": "V",
       "name": "Visa",
       "price": 423.0,
-      "start_price": 411.85,
+      "start_price": 411.13,
       "goal_price": 507.6,
       "progress": 12,
       "status": "RUNNING",
