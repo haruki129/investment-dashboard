@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-11-18T07:48:02.030242+09:00",
-  "overall_score": 49,
+  "timestamp": "2026-11-18T20:18:08.359784+09:00",
+  "overall_score": 56,
   "fundamental": 16,
-  "technical": 16,
-  "sentiment": 6,
+  "technical": 19,
+  "sentiment": 10,
   "macro": 11,
   "indices": [
     {
@@ -18,24 +18,24 @@
     },
     {
       "name": "日経平均",
-      "value": 59662.02,
-      "change": -2.42
+      "value": 59024.28,
+      "change": 0.28
     },
     {
       "name": "VIX",
-      "value": 25.46,
-      "change": 11.13
+      "value": 23.74,
+      "change": -6.76
     },
     {
       "name": "ドル円",
-      "value": 159.41,
-      "change": -0.23
+      "value": 159.33,
+      "change": -0.12
     }
   ],
   "actions": [
     {
       "priority": "mid",
-      "text": "⚖️ 中立環境（49点）。ポジションは資金の5-10%に抑制"
+      "text": "⚖️ 中立環境（56点）。ポジションは資金の5-10%に抑制"
     },
     {
       "priority": "mid",
