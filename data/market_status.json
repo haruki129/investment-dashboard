@@ -1,45 +1,45 @@
 {
-  "timestamp": "2026-11-19T20:16:48.536539+09:00",
-  "overall_score": 61,
+  "timestamp": "2026-11-20T07:35:52.273078+09:00",
+  "overall_score": 53,
   "fundamental": 18,
-  "technical": 22,
-  "sentiment": 10,
+  "technical": 18,
+  "sentiment": 6,
   "macro": 11,
   "indices": [
     {
       "name": "S&P500",
-      "value": 7323.63,
-      "change": -0.23
+      "value": 7175.83,
+      "change": -2.02
     },
     {
       "name": "NASDAQ",
-      "value": 24429.88,
-      "change": 0.42
+      "value": 23879.2,
+      "change": -2.25
     },
     {
       "name": "日経平均",
-      "value": 59444.21,
-      "change": 0.71
+      "value": 59024.28,
+      "change": 0.28
     },
     {
       "name": "VIX",
-      "value": 21.99,
-      "change": -10.46
+      "value": 28.44,
+      "change": 15.8
     },
     {
       "name": "ドル円",
-      "value": 159.91,
-      "change": 0.26
+      "value": 159.66,
+      "change": 0.1
     }
   ],
   "actions": [
     {
-      "priority": "high",
-      "text": "🎯 買い検討環境（61点）。ペロシTOP5とQレシオ高い清原TOP3を優先チェック"
+      "priority": "mid",
+      "text": "⚖️ 中立環境（53点）。ポジションは資金の5-10%に抑制"
     },
     {
       "priority": "mid",
-      "text": "🇺🇸 米国株TOP：Broadcom（AVGO）スコア70点"
+      "text": "🇺🇸 米国株TOP：Broadcom（AVGO）スコア65点"
     },
     {
       "priority": "mid",
