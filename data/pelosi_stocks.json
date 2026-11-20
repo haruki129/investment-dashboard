@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T07:35:52.273078+09:00",
+  "updated": "2026-11-20T20:01:35.968679+09:00",
   "model": "Pelosi Eye - Policy × Innovation",
   "stocks": [
     {
@@ -132,8 +132,8 @@
       "code": "MSFT",
       "name": "Microsoft",
       "price": 498.3,
-      "start_price": 524.96,
-      "goal_price": 531.19,
+      "start_price": 523.99,
+      "goal_price": 530.17,
       "progress": -100,
       "status": "STANDBY",
       "score": 40,
