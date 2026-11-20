@@ -1,45 +1,45 @@
 {
-  "timestamp": "2026-11-20T20:01:35.968679+09:00",
-  "overall_score": 50,
-  "fundamental": 18,
-  "technical": 15,
-  "sentiment": 6,
+  "timestamp": "2026-11-21T07:09:18.813784+09:00",
+  "overall_score": 47,
+  "fundamental": 15,
+  "technical": 18,
+  "sentiment": 3,
   "macro": 11,
   "indices": [
     {
       "name": "S&P500",
-      "value": 7175.83,
-      "change": -2.02
+      "value": 6910.39,
+      "change": -3.7
     },
     {
       "name": "NASDAQ",
-      "value": 23879.2,
-      "change": -2.25
+      "value": 22617.73,
+      "change": -5.28
     },
     {
       "name": "日経平均",
-      "value": 56436.65,
-      "change": -5.06
+      "value": 59444.21,
+      "change": 0.71
     },
     {
       "name": "VIX",
-      "value": 28.64,
-      "change": 0.7
+      "value": 35.89,
+      "change": 26.2
     },
     {
       "name": "ドル円",
-      "value": 158.87,
-      "change": -0.32
+      "value": 158.51,
+      "change": -0.55
     }
   ],
   "actions": [
     {
       "priority": "mid",
-      "text": "⚖️ 中立環境（50点）。ポジションは資金の5-10%に抑制"
+      "text": "⚖️ 中立環境（47点）。ポジションは資金の5-10%に抑制"
     },
     {
       "priority": "mid",
-      "text": "🇺🇸 米国株TOP：Broadcom（AVGO）スコア65点"
+      "text": "🇺🇸 米国株TOP：NVIDIA（NVDA）スコア50点"
     },
     {
       "priority": "mid",
